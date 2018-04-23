@@ -1,5 +1,5 @@
-# guidelines-data-archives
 OpenAIRE Guidelines for Data Archive Managers based on DataCite Metadata Kernel
+===============================================================================
 
 .. image:: https://travis-ci.org/openaire/guidelines-data-archives.svg?branch=master
    :target: https://travis-ci.org/openaire/guidelines-data-archives
