@@ -10,6 +10,8 @@ These guidelines describe the application profile v3 for Data Archive managers t
    introduction
    application_profile
 
-How to contribute
-~~~~~~~~~~~~~~~~~
+.. include:: whats_new.rst
+
+.. include:: contribute.rst
+
 
