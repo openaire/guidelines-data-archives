@@ -1,7 +1,7 @@
 Introduction
 ============
 
-The OpenAIRE (**Open** **A**ccess **I**nfrastructure for **R**esearch in **E**urope) Guidelines were established to support the `Open Access/Open Science strategy of the European Commission <http://ec.europa.eu/research/openscience/index.cfm?pg=openaccess>`_ and to meet requirements of the OpenAIRE infrastructure. This new version of the Guidelines, according to the expansion of the aims of the OpenAIRE initiative and its infrastructure, has a broader scope. In fact, these Guidelines are intended to guide repository manager to expose to the OpenAIRE infrastructure *open access and non-open access* publications together with funding information, where applicable.
+The OpenAIRE (**Open A**ccess **I**nfrastructure for **R**esearch in **E**urope) Guidelines were established to support the `Open Access/Open Science strategy of the European Commission <http://ec.europa.eu/research/openscience/index.cfm?pg=openaccess>`_ and to meet requirements of the OpenAIRE infrastructure. This new version of the Guidelines, according to the expansion of the aims of the OpenAIRE initiative and its infrastructure, has a broader scope. In fact, these Guidelines are intended to guide repository manager to expose to the OpenAIRE infrastructure *open access and non-open access* publications together with funding information, where applicable.
 
 Aim
 ---
