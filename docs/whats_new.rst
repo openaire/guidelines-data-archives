@@ -6,7 +6,7 @@ With the version **3.0** of theses guidelines is the major change the harmonisat
 This version refining the vocablulary for some elements in the application profile.
 
 - Full alignment to the *OpenAIRE Content Acquistion Policies* (CAP, `10.5281/zenodo.1446408 <https://doi.org/10.5281/zenodo.1446408>`_ ) published in Aug. 2018.
-- the rights vocabular is updated to COAR
+- the rights element has an updated vocabulary to `COAR Access Rights Vocabulary <http://vocabularies.coar-repositories.org/documentation/access_rights/>`_
 - 
 
 
