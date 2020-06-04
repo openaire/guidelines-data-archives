@@ -25,6 +25,7 @@ Provide a rights management statement for the resource or reference a service pr
 
 Examples:
 	Creative Commons Attribution 3.0 Germany License
+	
 	Apache License, Version 2.02
 	
 Use terms from the `COAR Access Right Vocabulary`_ (occurrence: 1).
@@ -47,7 +48,7 @@ http://purl.org/coar/access_right/c_14cb ``metadata only access``
 	
 **Remarks**
 
-* adapted from `DataCite Metadata Schema`_ v4.3
+- adapted from `DataCite Metadata Schema`_ v4.3
 
 Attribute rightsURI (MA)
 ************************
@@ -80,8 +81,8 @@ Attribute rightsIdentifierScheme (MA)
 The name of the scheme is a controlled vocabulary.
 
 Controlled list: 
-	SPDX
-	COAR
+	- SPDX
+	- COAR
 
 
 Attribute schemeURI (R)
