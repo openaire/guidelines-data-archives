@@ -18,14 +18,14 @@ Rationale
 ---------
 The goal of the OpenAIRE guidelines for dataset is to give immediate visibility of datasets as a "citable research product” based on the current state of the art in the scholarly communication, while indicating the way towards "good dataset citation practices". Research dataset is currently available from the following kinds scholarly communication repositories:
 
-* Institutional repositories: datasets descriptions are currently provided as Dublin Core metadata records
-* Data repositories: dataset descriptions are currently provided as DataCite metadata records
+- Institutional repositories: datasets descriptions are currently provided as Dublin Core metadata records
+- Data repositories: dataset descriptions are currently provided as DataCite metadata records
 
 The guidelines aim at making these repositories readily compliant so as to start exposing dataset entities to discovery and citation services. This means the guidelines should be endorsed by the community (e.g. include properties that reflect the need of dataset citation), do not impose high efforts to sources (e.g. mandatory citation metadata not available to sources), while recommending best practices (e.g. placing metadata recommended/optional for citation). Accordingly, the guidelines have been defined with a pragmatic approach, keeping mandatory properties to the minimum, focusing on properties for citation (attribution and access), disregarding discover-for-reuse properties, but keeping in mind that any property can be added in the future to reflect changes that should and hopefully will occur at the repositories side and in the behaviour of scientists who create, share, cite, and re-use research datasets.
 
 The guidelines take inspiration from the following initiatives on datasets description and citation:
 
-* `DataCite <https://schema.datacite.org>`_  
+- `DataCite <https://schema.datacite.org>`_  
 
 Mappings from the OpenAIRE guidelines to such initiatives are available `here`_ and open to comments and revision.
 
@@ -33,19 +33,20 @@ Acknowledgements & Contributors
 -------------------------------
 Editors
 ~~~~~~~
+
 Andreas Czerniak (Bielefeld University, Germany, orcid.org/)
+
 Aenne Loehden (Bielefeld University Library, Germany, orcid.org/)
+
 
 Experts & Reviewers
 ~~~~~~~~~~~~~~~~~~~
-Jochen Schirrwagen (Bielefeld University, Germany, orcid.org/)
-Amelie Bäcer (Bielefeld University Library, Germany, orcid.org/)
-Paolo Manghi (CNR, Italy, orcid.org/)
-Natalia Manola (University of Athens, Greece, orcid.org/)
+
+
 
 Versions
 ~~~~~~~~
-* 3.0-Draft June 2020, Updated to DataCite Metadata Schema v4.3 (`https://doi.org/10.14454/f2wp-s162`_)  
+* 3.0-Draft June 2020, Updated to DataCite Metadata Schema v4.3 (doi `10.14454/f2wp-s162 <https://doi.org/10.14454/f2wp-s162>`_)  
 * `2.0 April 2014 <http://dx.doi.org/10.5281/zenodo.6918>`_ , Updated to DataCite Metadata Schema v3.0
 * 1.0 December 2012, Initial document
 
