@@ -10,7 +10,7 @@ These guidelines are intended to provide indications on how to make dataset prod
 
 By implementing the OpenAIRE Guidelines, data archive managers are facilitating the creation of enhanced publications and building the stepping-stones for a linked data infrastructure for research.
 
-According to the content acquisition policies of the OpenAIRE infrastructure, metadata from data archives can be included and shown in the OpenAIRE Research Graph without any restrictions.
+According to the Content Acquisition Policies (CAP, `10.5281/zenodo.1446408 <https://doi.org/10.5281/zenodo.1446408>`_ ) of the OpenAIRE infrastructure, metadata from data archives can be included and shown in the OpenAIRE Research Graph without any restrictions.
 
 OpenAIRE is happy to assist in adherence to these guidelines. 
         
@@ -27,16 +27,14 @@ The guidelines take inspiration from the following initiatives on datasets descr
 
 - `DataCite <https://schema.datacite.org>`_  
 
-Mappings from the OpenAIRE guidelines to such initiatives are available `here`_ and open to comments and revision.
+.. Mappings from the OpenAIRE guidelines to such initiatives are available `here`_ and open to comments and revision.
 
 Acknowledgements & Contributors
 -------------------------------
 Editors
 ~~~~~~~
-
-Andreas Czerniak (Bielefeld University, Germany, orcid.org/)
-
-Aenne Loehden (Bielefeld University Library, Germany, orcid.org/)
+- Andreas Czerniak (Bielefeld University, Germany, orcid.org/)
+- Aenne Loehden (Bielefeld University Library, Germany, orcid.org/)
 
 
 Experts & Reviewers
@@ -46,7 +44,7 @@ Experts & Reviewers
 
 Versions
 ~~~~~~~~
-* 3.0-Draft June 2020, Updated to DataCite Metadata Schema v4.3 (doi `10.14454/f2wp-s162 <https://doi.org/10.14454/f2wp-s162>`_)  
+* 3.0-Draft June 2020, Updated to DataCite Metadata Schema v4.3 ( `10.14454/f2wp-s162 <https://doi.org/10.14454/f2wp-s162>`_)   
 * `2.0 April 2014 <http://dx.doi.org/10.5281/zenodo.6918>`_ , Updated to DataCite Metadata Schema v3.0
 * 1.0 December 2012, Initial document
 
