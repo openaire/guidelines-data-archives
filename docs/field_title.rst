@@ -35,7 +35,7 @@ Use the title name as value. Repeat this property for different title types or t
 Attribute lang (O)
 ------------------
 
-The language of the title (occurrence: 0-1)
+The language of the title (occurrence: 0-1)..
 
 Use the ``xml:lang`` attribute to indicate the language of the title. The value of the attribute should be chosen from IETF BCP 47, the `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_.
 
