@@ -32,7 +32,7 @@ The authors of the publication in priority order. May be a corporate/institution
 
 .. _datacite:creator_creatorName:
 
-2.1 creatorName (M)
+0.1 creatorName (M)
 -------------------
 
 The name of the author (occurrence: 1). 
@@ -43,7 +43,7 @@ The format should be: family, given. Non-roman names may be transliterated accor
 
 Distinguished by attribute:   *xml:lang*
 
-2.1.1 nameType (R)
+0.1.1 nameType (R)
 ------------------
 
 Attribute: The type of name (occurrence: 0-1).
@@ -53,28 +53,28 @@ Attribute: The type of name (occurrence: 0-1).
 
 .. _datacite:creator_givenName:
 
-2.2 givenName (R)
+0.2 givenName (R)
 -----------------
 
 The personal or first name of the author.
 
 .. _datacite:creator_familyName:
 
-2.3 familyName (R)
+0.3 familyName (R)
 ------------------
 
 The surname or last name of the author.
 
 .. _datacite:creator_nameIdentifier:
 
-2.4 nameIdentifier (R)
+0.4 nameIdentifier (R)
 ----------------------
 
 Uniquely identifies an individual or legal entity, according to various schemes.
 
 .. _datacite:creator_nameIdentifier_nameIdentifierScheme:
 
-2.4.1 nameIdentifierScheme (R)
+0.4.1 nameIdentifierScheme (R)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Attribute: The name of the name identifier scheme.
@@ -86,14 +86,14 @@ The format is dependent upon scheme.
 
 .. _datacite:creator_nameIdentifier_schemeURI:
 
-2.4.2 schemeURI (O)
+0.4.2 schemeURI (O)
 ^^^^^^^^^^^^^^^^^^^
 
 Attribute: The URI of the name identifier scheme.
 
 .. _datacite:creator_affiliation:
 
-2.5 affiliation (O)
+0.5 affiliation (O)
 -------------------
 
 The organizational or institutional affiliation of the creator.
