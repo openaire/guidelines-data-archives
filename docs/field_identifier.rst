@@ -13,7 +13,7 @@ Format should be “10.1234/foo”
 
 .. _d:identifiertype:
 
-1.1 identifierType (M)
+0.1 identifierType (M)
 -----------------------
 The type of the Identifier (occurrences: 1).
 
