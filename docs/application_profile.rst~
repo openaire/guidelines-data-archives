@@ -30,13 +30,13 @@ This documentation uses the following namespace abbreviations:
 OpenAIRE-Field                           Metadata Element              Refinement by Vocabulary
 ======================================== ============================= ========================================================================================
 :ref:`dci:title`                         datacite:title           	:ref:`title type <vocab:titletype_titletype>`
+:ref:`dci:subject`                       datacite:subject         	:ref:`name type <vocab:nametype_nametype>`
 :ref:`dci:creator`                       datacite:creator         	:ref:`name type <vocab:nametype_nametype>`
 :ref:`dci:contributor`                   datacite:contributor          | :ref:`name type <vocab:nametype_nametype>`
                                                                        | :ref:`contributor type <vocab:contributortype_contributortype>`
 :ref:`dci:datePublication`	         datacite:date                 :ref:`date type <vocab:datetype_datetype>`
 :ref:`dci:publicationYear`	         datacite:date                 :ref:`date type <vocab:datetype_datetype>`
 :ref:`dci:publisher`                     datacite:publisher
-:ref:`dci:subject`                       datacite:subject         	
 :ref:`dci:description`                   datacite:description
 :ref:`dci:language`			  datacite:language		Allowed values are taken from IETF BCP 47, ISO 639-1 language codes. Examples: en, de, fr
 :ref:`dci:identifier`                    datacite:identifier           :ref:`identifier type <vocab:identifiertype_identifiertype>`
