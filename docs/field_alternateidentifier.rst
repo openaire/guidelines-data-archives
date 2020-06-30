@@ -1,3 +1,5 @@
+.. include:: vocabularies/replacements.rst
+
 .. _dci:alternativeIdentifier:
 
 Alternative Identifier (R, 0-n)
