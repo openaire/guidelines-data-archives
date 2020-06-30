@@ -1,6 +1,6 @@
 .. _dci:subject:
 
-Subject (MA)
+Subject (MA, 0-n)
 ============
 
 ``datacite:subject``
