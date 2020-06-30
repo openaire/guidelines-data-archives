@@ -5,6 +5,8 @@ Subject (MA, 0-n)
 
 ``datacite:subject``
 
+(Obligation: MA, occurrence: 0-n)
+
 Cardinality
 ~~~~~~~~~~~
 
