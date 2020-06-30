@@ -71,7 +71,7 @@ Examples:
 
 * http://id.loc.gov/authorities/subjects
 * http://zbw.eu/stw
-* http://dewey.info/
+* http://aims.fao.org/standards/agrovoc
 
 Attribute valueURI (O)
 ----------------------
