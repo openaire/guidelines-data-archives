@@ -23,7 +23,7 @@
 .. |UPC| replace:: Universal Product Code
 .. |URL| replace:: Uniform Resource Locator
 .. |URN| replace:: Uniform Resource Name (resolvable via http://nbn-resolving.org/)
-.. |w3id| replace:: www IDs (resolvable via https://w3id.org/)
+.. |w3id| replace:: www identifier (resolvable via https://w3id.org/)
 .. |WOS| replace:: Web of Science accession number
 
 .. |CrossrefFunder| replace:: Crossref Funder ID (resolvable via http://dx.doi.org/)
