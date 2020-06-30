@@ -78,7 +78,7 @@ Attribute valueURI (O)
 The URI of the subject term.
 
 Attribute xml:lang (R, 0-1)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 The language of the subject synonym.
 
