@@ -53,6 +53,12 @@ The name of the subject scheme or classification code or authority if one is use
 
 Free text.
 
+*Examples:*
+
+* ``DDC`` - |DDC|
+* ``STW`` - |STW|
+* ``AGROVOC`` - |AGROVOC|
+
 .. _dci:subject_schemeUri:
 
 Attribute schemeURI (O)
