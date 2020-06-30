@@ -48,7 +48,7 @@ Property rights (M, 1)
 
 Use the label of the vocabulary term as value.
 
-Attribute rightsUri (M)
+Attribute uri (M)
 -----------------
 
 Use the conceptURI of the vocabulary term.
@@ -59,6 +59,6 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <datacite:rights rightsURI="http://purl.org/coar/access_right/c_abf2">open access</datacite:rights>
+   <datacite:rights uri="http://purl.org/coar/access_right/c_abf2">open access</datacite:rights>
 
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
