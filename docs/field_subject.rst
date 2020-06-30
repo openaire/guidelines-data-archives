@@ -70,6 +70,7 @@ The URI of the subject identifier scheme (occurrences: 0-1).
 Examples:
 
 * http://id.loc.gov/authorities/subjects
+* http://zbw.eu/stw
 * http://dewey.info/
 
 Attribute valueURI (O)
