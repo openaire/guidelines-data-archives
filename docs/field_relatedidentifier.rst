@@ -72,3 +72,56 @@ The relationship of the resource being registered (A) with the related resource 
 
 .. note::
    ``Cites`` and ``IsCitedBy`` is dedicated to publications/datasets directly citing other publications/datasets in their references, whereas ``References`` and ``IsReferencedBy`` describes datasets/publications being used as information sources without direct citations.
+
+.. _d:resourceTypeGeneral:
+
+12.3 @resourceTypeGeneral (O, 0-1)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The main category the related resource belongs to.
+
+*Controlled List Values:*
+
+* ``literature``
+* ``dataset``
+* ``software``
+* ``other``
+
+.. _d:relatedmetadatascheme:
+
+12.4 @relatedMetadataScheme (O, 0-1)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The name of the metadata scheme.
+
+**Allowed values, other constraints**
+
+Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+
+.. _d:relatedidentifier_schemuri:
+
+12.5 @schemeURI (O, 0-1)
+~~~~~~~~~~~~~~~~~~
+
+The URI of the relatedMetadataScheme.
+
+**Allowed values, other constraints**
+
+Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+
+.. _d:relatedidentifier_schemeType:
+
+12.6 @schemeType (O, 0-1)
+~~~~~~~~~~~~~~~~~~~
+
+The type of the relatedMetadataScheme, linked via the schemeURI.
+
+**Allowed values, other constraints**
+
+Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+
+*Examples:*
+
+* ``XSD`` - XML Schema Definition
+* ``DTD`` - Document Type Definition
+* ``Turtle`` - Terse RDF Triple language
