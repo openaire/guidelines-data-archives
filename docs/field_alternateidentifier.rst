@@ -101,6 +101,7 @@ Context
 
 * alternateIdentifier_ is *recommended* in OpenAIRE instead of *optional* in DataCite.
 * OpenAIRE uses alternateIdentifier_ also for the specific web targets *landing page* and *distribution location*.
+* OpenAIRE allows more identifier types than just DOI as in DataCite.
 
 **OpenAIRE Data Guidelines v Differentiation**
 
