@@ -82,6 +82,20 @@ Attribute nameIdentifierScheme (M)
 
 The name of the name identifier scheme (occurrence: 1). Mandatory if *nameIdentifier* is used.
 
+**Allowed values, examples, other constraints**
+
+Examples:
+
+* ``ISNI`` - |ISNI|
+* ``ORCID`` - |ORCID|
+* ``VIAF`` - |VIAF|
+* ``ResearcherID`` - |ResearcherID|
+* ``CrossrefFunder`` - |CrossrefFunder|
+* ``ISIL`` - |ISIL|
+* ``GRID`` - |GRID|
+* ``OrgRef`` - |OrgRef|
+* national organisation ID authoritative systems (e.g. PTCRIS_OrgID (Portugal))
+
 .. _dci:contributor_schemeURI:
 
 Attribute schemeURI (R)
