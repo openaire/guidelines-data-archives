@@ -93,7 +93,7 @@ Landing pages and download pages:
 **Do Not Confuse With**
 
 * :ref:`dci:identifier` (Use ``identifier`` for the primary identifier of the same resource instance.)
-* :ref:``dci:relatedIdentifier`` (Use ``relatedIdentifier`` for identifiers of related resources.)
+* :ref:`dci:relatedIdentifier` (Use ``relatedIdentifier`` for identifiers of related resources.)
 
 **DataCite v4.3 Differentiation**
 
