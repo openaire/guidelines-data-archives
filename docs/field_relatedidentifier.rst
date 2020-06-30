@@ -40,6 +40,7 @@ The type of the RelatedIdentifier.
 * ``UPC`` - |UPC|
 * ``URL`` - |URL|
 * ``URN`` - |URN|
+* ``w3id`` - |w3id|
 * ``WOS`` - |WOS|
 
 .. _d:relationtype:
