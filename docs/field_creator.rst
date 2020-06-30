@@ -81,6 +81,16 @@ Attribute: The name of the name identifier scheme.
 Uniquely identifies an individual or legal entity, according to various schemes (occurrences: 0-n).
 The format is dependent upon scheme.
 
+**Allowed values, examples, other constraints**
+
+Examples:
+
+* ``ISNI`` - |ISNI|
+* ``ORCID`` - |ORCID|
+* ``VIAF`` - |VIAF|
+* ``ResearcherID`` - |ResearcherID|
+* national organisation ID authoritative systems
+
 .. note::
    OpenAIRE recommends including a nameIdentifier such as an ORCID or a ISNI if available.
 
