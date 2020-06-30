@@ -43,12 +43,12 @@ http://purl.org/coar/access_right/c_14cb ``metadata only access``
 * former versions of the OpenAIRE Guidelines used the `info:eu-repo-Access-Terms vocabulary <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_.
 
 
-Property accessRights (M, 1)
+Property rights (M, 1)
 ----------------------------
 
 Use the label of the vocabulary term as value.
 
-Attribute uri (M)
+Attribute rightsUri (M)
 -----------------
 
 Use the conceptURI of the vocabulary term.
