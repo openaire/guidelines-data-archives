@@ -86,4 +86,20 @@ Landing pages and download pages:
        http://some-distribution-location.org
      </alternateIdentifier>
    </alternateIdentifiers>
+   
+   Context
+-------
 
+**Do Not Confuse With**
+
+* :ref:`dci:identifier` (Use ``identifier`` for the primary identifier of the same resource instance.)
+* :ref:``dci:relatedIdentifier`` (Use ``relatedIdentifier`` for identifiers of related resources.)
+
+**DataCite v4.3 Differentiation**
+
+* alternateIdentifier_ is *recommended* in OpenAIRE instead of *optional* in DataCite.
+* OpenAIRE uses alternateIdentifier_ also for the specific web targets *landing page* and *distribution location*.
+
+**OpenAIRE Data Guidelines v Differentiation**
+
+* Registering landing pages and download pages is newly introduced in the current Guideline version.
