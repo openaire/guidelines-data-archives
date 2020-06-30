@@ -104,3 +104,21 @@ Example
    </datacite:subjects>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.3/
+
+Context
+-------
+
+**Do Not Confuse With**
+
+* :ref:`dci:description` (Use ``description`` for an abstract)
+* :ref:`dci:title` (Use ``title`` for the name of the resource)
+* :ref:`dci:resourceType` (Use ``resourceType`` for the type)
+
+**DataCite v4.3 Differentiation**
+
+* `@xml:lang`_ is *recommenced* in OpenAIRE instead of *optional* in DataCite.
+
+**OpenAIRE Data Guidelines v3 Differentiation**
+
+* `@xml:lang`_ is newly added.
+* `@valueUri`_ is newly added.
