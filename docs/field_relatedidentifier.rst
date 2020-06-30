@@ -168,6 +168,7 @@ Context
 
 * relatedIdentifier_ is *mandatory when applicable* in OpenAIRE instead of *recommended* in DataCite.
 * relatedIdentifierType_ allows more types in OpenAIRE than in DataCite.
+* resourceTypeGeneral_ suggests other types in OpenAIRE than in DataCite.
 
 
 **OpenAIRE Data Guidelines v Differentiation**
