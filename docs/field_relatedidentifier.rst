@@ -125,3 +125,48 @@ Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 * ``XSD`` - XML Schema Definition
 * ``DTD`` - Document Type Definition
 * ``Turtle`` - Terse RDF Triple language
+
+Examples
+--------
+
+.. code-block:: xml
+   :linenos:
+
+   <relatedIdentifiers>
+     <relatedIdentifier
+       relatedIdentifierType="URN"
+       relationType="IsCitedBy"
+       resourceTypeGeneral="literature">
+       urn:nbn:de:gbv:089-2683311469
+     </relatedIdentifier>
+   </relatedIdentifiers>
+
+.. code-block:: xml
+   :linenos:
+
+   <relatedIdentifiers>
+     <relatedIdentifier 
+       relatedIdentifierType="URL" 
+       relationType="HasMetadata" 
+       relatedMetadataScheme="citeproc+json" 
+       schemeURI="https://github.com/citation-style-language/schema/raw/master/csl-data.json">
+       https://data.datacite.org/application/citeproc+json/10.5072/example-full
+     </relatedIdentifier>
+   <relatedIdentifiers>
+
+Context
+-------
+
+**Do Not Confuse With**
+
+* :ref:`dci:identifier` (Use ``identifier`` for the primary identifier of the same resource instance.)
+* :ref:`dci:alternativeIdentifier` (Use ``alternateIdentifier`` for secondary or local identifiers of the same resource, and also for landing pages and download pages.)
+
+**DataCite v4.3 Differentiation**
+
+* relatedIdentifier_ is *mandatory when applicable* in OpenAIRE instead of *recommended* in DataCite.
+* relatedIdentifierType_ allows more types in OpenAIRE than in DataCite.
+
+
+**OpenAIRE Data Guidelines v Differentiation**
+
