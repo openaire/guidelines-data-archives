@@ -15,7 +15,7 @@ and
 `REST <http://api.openaire.eu/search/projects>`_ 
 (see `documentation <http://api.openaire.eu>`_), and available for all repository managers. Values include the project name and ID and of course the funder. The project ID equals the Grant Agreement identifier or Award number. Please note that the set of funders integrated in OpenAIRE is continuously expanding.
 
-Property fundingReference (M, 0-n)
+Property fundingReference (MA, 0-n)
 ----------------
 
 Specification of funding by way of a project.
