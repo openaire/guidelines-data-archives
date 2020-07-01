@@ -3,6 +3,8 @@
 Resource Type (M, 1)
 --------------------
 
+``datacite:resourceType``
+
 A declaration of the resource's type.
 
 Property resourceType (M, 1)
