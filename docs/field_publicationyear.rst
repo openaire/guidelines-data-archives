@@ -13,6 +13,9 @@ The year when the data was or will be made publicly available. In the case of re
 
 If an embargo period is or has been in effect, use the date when the embargo period ends. In the case of datasets, "publish" is understood to mean making the data available on a specific date to the community of researchers. If there is no standard publication year value, use the date that would be preferred from a citation perspective.
 
+Property publicationYear (M, 1)
+----------------
+
 Examples
 ----------------
 
