@@ -1,28 +1,11 @@
 .. _dci:contributor:
 
-Contributor (MA)
+Contributor (MA, 0-n)
 ================
 
 ``datacite:contributor``
 
-Cardinality
-~~~~~~~~~~~
-
-*Mandatory if applicable*
-
-*Occurrence: 0-n*
-
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource.
-
-**Do Not Confuse With**
-
-
-**Remarks**
-
-* adapted from `DataCite MetadataKernel`_ v4.3
 
 Property contributor (MA, 0-n)
 ------------------------------
@@ -30,19 +13,19 @@ Property contributor (MA, 0-n)
 
 .. _dci:contributor_contributorType:
 
-Attribute contributorType (M)
------------------------------
+Attribute contributorType (M, 1)
+~~~~~~~~~~~~~~~~
 
-The type of contributor of the resource (occurrence: 1). Mandatory if *contributor* is used.
+The type of the resource's contributor.
 
 .. include:: vocabularies/contributortype.rst
 
 .. _dci:contributor_contributorName:
 
-Subproperty contributorName (M)
--------------------------------
+Subproperty contributorName (M, 1)
+~~~~~~~~~~~~~~~~
 
-The name of the contributor (occurrence: 1). Mandatory if *Contributor* is used.
+The name of the contributor.
 
 .. _dci:contributor_nameType:
 
@@ -55,32 +38,31 @@ The type of name (occurrence: 0-1).
 
 .. _dci:contributor_familyName:
 
-Subproperty familyName (O)
---------------------------
+Subproperty familyName (O, 0-1)
+~~~~~~~~~~~~~~~~
 
-The surname or last name of the contributor (occurrence: 0-1).
+The surname or last name of the contributor.
 
 .. _dci:contributor_givenName:
 
-Subproperty givenName (O)
--------------------------
+Subproperty givenName (O, 0-1)
+~~~~~~~~~~~~~~~~
 
-The personal or first name of the contributor (occurrence: 0-1).
-
+The personal or first name of the contributor.
 
 .. _dci:contributor_nameIdentifier:
 
-Subproperty nameIdentifier (R)
-------------------------------
+Subproperty nameIdentifier (R, 0-n)
+~~~~~~~~~~~~~~~~
 
-Uniquely identifies an individual or legal entity, according to various schemes (occurrence: 0-n).
+Uniquely identifies an individual or legal entity, according to various schemes.
 
 .. _dci:contributor_nameIdentifierScheme:
 
-Attribute nameIdentifierScheme (M)
+Attribute nameIdentifierScheme (M, 1)
 **********************************
 
-The name of the name identifier scheme (occurrence: 1). Mandatory if *nameIdentifier* is used.
+The name of the name identifier scheme.
 
 **Allowed values, examples, other constraints**
 
@@ -98,20 +80,20 @@ Examples:
 
 .. _dci:contributor_schemeURI:
 
-Attribute schemeURI (R)
+Attribute schemeURI (R, 0-1)
 ***********************
 
-The URI of the name identifier scheme (occurrence: 0-1).
+The URI of the name identifier scheme.
 
 .. _dci:contributor_affiliation:
 
-Subproperty affiliation (R)
----------------------------
+Subproperty affiliation (R, 0-n)
+~~~~~~~~~~~~~~~~
 
 The organisational or institutional affiliation of the contributor.
 
-Example
-~~~~~~~
+Examples
+-------
 
 .. code-block:: xml
    :linenos:
