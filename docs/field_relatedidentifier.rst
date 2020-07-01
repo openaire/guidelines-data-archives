@@ -48,7 +48,7 @@ The type of the related identifier.
 
 .. _d:relationtype:
 
-Attrbite relationType (M, 1)
+Attribute relationType (M, 1)
 ~~~~~~~~~~~~~~~~~~~~~~
 
 The relationship of the resource being registered (A) with the related resource (B).
