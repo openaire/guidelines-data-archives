@@ -23,8 +23,7 @@ Web pages dedicated to the resource, i.e. landing pages or download pages, are g
 
 .. _d:alternateidentifiertype:
 
-
- Attribute alternateIdentifierType (M, 1)
+Attribute alternateIdentifierType (M, 1)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The type of the alternateIdentifier.
