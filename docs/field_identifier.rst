@@ -36,7 +36,7 @@ The type of the identifier.
 * URN
 * URL
 
-Example
+Examples
 -------
 
 .. code-block:: xml
@@ -49,7 +49,8 @@ Context
 
 **Do Not Confuse With**
 
-
+* :ref:`dci:relatedIdentifier` (Use ``relatedIdentifier`` for to indicate related resources, as e.g. cited or citing resources.)
+* :ref:`dci:alternativeIdentifier` (Use ``alternateIdentifier`` for secondary or local identifiers of the same resource, and also for landing pages and download pages.)
 
 **DataCite v4.3 Differentiation**
 
