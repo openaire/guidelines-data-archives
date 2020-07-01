@@ -114,5 +114,5 @@ Context
 
 **OpenAIRE Data Guidelines v3 Differentiation**
 
-* Following DataCite v3, the OpenAIRE Data Guidelines v3 used ``contributor`` (with ``contributorType`` Funder) to indicate funding information.
+* Following DataCite v3, the former OpenAIRE Data Guidelines used ``contributor`` (with ``contributorType`` Funder) to indicate funding information.
 * The formerly applied `info:eu-repo/grantAgreement/[Funder]/[FundingProgram]/[ProjectID]/[Jurisdiction]/[ProjectName]/[ProjectAcronym] <http://purl.org/eu-repo/semantics/#info-eu-repo-GrantAgreementIdentifiers>`_ notation is replaced by the detailed DataCite properties.
