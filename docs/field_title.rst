@@ -7,51 +7,33 @@ Title (M, 1-n)
 
 ``datacite:title``
 
-Cardinality
-~~~~~~~~~~~
-
-*Mandatory*
-
-*Occurrence: 1-n*
-
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 A name or title by which a resource is known.
+Use the title name as value. Repeat this property for titles of different types or in different languages.
+
+Property title (M, 1-n)
+----------------
+
+Attribute xml:lang (R, 0-1)
+~~~~~~~~~~~~~~~~
+
+The language of the title.
 
 **Allowed values, examples, other constraints**
 
-Free text.
+The value of the attribute should be chosen from IETF BCP 47, the `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_.
 
-**Remarks**
+Attribute titleType (O, 0-1)
+~~~~~~~~~~~~~~~~
 
-* adapted from `DataCite MetadataKernel`_ v4.3
-
-Property title (M, 1-n)
------------------------
-
-Use the title name as value. Repeat this property for different title types or title languages.
-
-Attribute lang (O)
-------------------
-
-The language of the title (occurrence: 0-1)..
-
-Use the ``xml:lang`` attribute to indicate the language of the title. The value of the attribute should be chosen from IETF BCP 47, the `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_.
-
-
-Attribute titleType (O)
------------------------
-
-The type of Title (occurrences: 0-1).
+The title's type.
 
 **Allowed values, examples, other constraints**
 
 .. include:: vocabularies/titletype.rst
 
+Examples
+-------
 
-Example
-~~~~~~~
 .. code-block:: xml
    :linenos:
 
@@ -62,3 +44,16 @@ Example
     <datacite:title xml:lang="en-US" titleType="Subtitle">A survey</datacite:title>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.3/
+
+Context
+-------
+
+**Do Not Confuse With**
+
+
+
+**DataCite v4.3 Differentiation**
+
+* OpenAIRE recommends indicating the title's language.
+
+**OpenAIRE Data Guidelines v2 Differentiation**
