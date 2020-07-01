@@ -9,16 +9,19 @@ Related Identifier (MA, 0-n)
 
 Identifiers of related resources other than the resource being registered. OpenAIRE especially encourages relating datasets with publications and software, but appreciatively welcomes other kinds of relations too.
 
+Property relatedIdentifier (MA, 0-n)
+----------------
+
 **Allowed values, other constraints**
 
-A relatedIdentifier must be globally unique and should be durable. Preferrably it is registered with an established identification system, or is a permalink or stable URL.
+A related identifier must be globally unique and should be durable. Preferrably it is registered with an established identification system, or is a permalink or stable URL.
 
 The format is free text - a unique string that unambiguously identifies a resource within its given context and follows the respective specifications.
 
-12.1 @relatedIdentifierType (M, 1)
+Attribute relatedIdentifierType (M, 1)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The type of the RelatedIdentifier.
+The type of the related identifier.
 
 **Allowed values, other constraints**
 
@@ -45,7 +48,7 @@ The type of the RelatedIdentifier.
 
 .. _d:relationtype:
 
-12.2 @relationType (M, 1)
+Attrbite relationType (M, 1)
 ~~~~~~~~~~~~~~~~~~~~~~
 
 The relationship of the resource being registered (A) with the related resource (B).
@@ -77,7 +80,7 @@ The relationship of the resource being registered (A) with the related resource 
 
 .. _d:resourceTypeGeneral:
 
-12.3 @resourceTypeGeneral (O, 0-1)
+Attribute resourceTypeGeneral (O, 0-1)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The main category the related resource belongs to.
@@ -91,7 +94,7 @@ The main category the related resource belongs to.
 
 .. _d:relatedmetadatascheme:
 
-12.4 @relatedMetadataScheme (O, 0-1)
+Attribute relatedMetadataScheme (O, 0-1)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The name of the metadata scheme.
@@ -102,7 +105,7 @@ Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
 .. _d:relatedidentifier_schemuri:
 
-12.5 @schemeURI (O, 0-1)
+Attribute schemeURI (O, 0-1)
 ~~~~~~~~~~~~~~~~~~
 
 The URI of the relatedMetadataScheme.
@@ -113,7 +116,7 @@ Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
 .. _d:relatedidentifier_schemeType:
 
-12.6 @schemeType (O, 0-1)
+Attribute schemeType (O, 0-1)
 ~~~~~~~~~~~~~~~~~~~
 
 The type of the relatedMetadataScheme, linked via the schemeURI.
