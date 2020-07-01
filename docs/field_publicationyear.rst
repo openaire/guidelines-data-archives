@@ -1,44 +1,34 @@
 .. _dci:publicationYear:
 
-Publication Year (M)
+Publication Year (M, 1)
 ====================
 
 ``datacite:date``
 
-Cardinality
-~~~~~~~~~~~
-
-*Mandatory*
-
-*Occurrence: 1*
-
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The year when the data was or will be made publicly available. In the case of resources such as software or dynamic data where there may be multiple releases in one year, include the Date/dateType/dateInformation property and sub-properties to provide more information about the publication or release date details.
+The year when the data was or will be made publicly available. In the case of resources such as software or dynamic data where there may be multiple releases in one year, include the date/dateType/dateInformation property and sub-properties to provide more information about the publication or release date details.
 
 **Usage Instruction**
 
-``YYYY``
+``YYYY`` [four-digit year]
 
-where:
+If an embargo period is or has been in effect, use the date when the embargo period ends. In the case of datasets, "publish" is understood to mean making the data available on a specific date to the community of researchers. If there is no standard publication year value, use the date that would be preferred from a citation perspective.
 
-* ``YYYY`` [four-digit year] is ''mandatory''
-
-If an embargo period has been in effect, use the date when the embargo period ends. In the case of datasets, "publish" is understood to mean making the data available on a specific date to the community of researchers. If there is no standard publication year value, use the date that would be preferred from a citation perspective.
-
-
-**Remarks**
-
-* adapted from `DataCite MetadataKernel`_ v4.3
-
-
-Example
-~~~~~~~
+Examples
+----------------
 
 .. code-block:: xml
    :linenos:
    
+Context
+-------
+
+**Do Not Confuse With**
+
+
+**DataCite v4.3 Differentiation**
+
+
+**OpenAIRE Data Guidelines v2 Differentiation**
    
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.3/
