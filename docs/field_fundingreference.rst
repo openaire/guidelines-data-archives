@@ -7,6 +7,14 @@ Funding Reference (MA, 0-n)
 
 Specification of financial support (funding) by funders. If the described items where assembled in the course of funded projects, this should be stated here.
 
+**Allowed values, other constraints**
+
+An authoritative list of projects is exposed by OpenAIRE through 
+`OAI-PMH <http://api.openaire.eu/oai_pmh?verb=ListRecords&set=projects&metadataPrefix=oaf>`_ 
+and 
+`REST <http://api.openaire.eu/search/projects>`_ 
+(see `documentation <http://api.openaire.eu>`_), and available for all repository managers. Values include the project name and ID and of course the funder. The project ID equals the Grant Agreement identifier or Award number. Please note that the set of funders integrated in OpenAIRE is continuously expanding.
+
 Property fundingReference (M, 0-n)
 ----------------
 
@@ -80,15 +88,6 @@ Examples
        <awardTitle>Geophysics of the Seasonal Sea Ice Zone</awardTitle>
      </fundingReference>
    </fundingReferences>
-
-Usage Instruction
------------------
-
-An authoritative list of projects is exposed by OpenAIRE through 
-`OAI-PMH <http://api.openaire.eu/oai_pmh?verb=ListRecords&set=projects&metadataPrefix=oaf>`_ 
-and 
-`REST <http://api.openaire.eu/search/projects>`_ 
-(see `documentation <http://api.openaire.eu>`_), and available for all repository managers. Values include the project name and ID and of course the funder. The project ID equals the Grant Agreement identifier or Award number. Please note that the set of funders integrated in OpenAIRE is continuously expanding.
 
 Context
 -------
