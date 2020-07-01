@@ -108,3 +108,17 @@ Examples
    </datacite:contributors>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.3/
+
+Context
+-------
+
+**Do Not Confuse With**
+
+* :ref:`dci:creator`
+* :ref:`dci:publisher`
+
+**DataCite v4.3 Differentiation**
+
+
+
+**OpenAIRE Data Guidelines v2 Differentiation**
