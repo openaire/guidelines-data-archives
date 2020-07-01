@@ -107,7 +107,7 @@ With initials:
      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org">1234-1234-1234-1234</nameIdentifier>
    </creator>
 
-With de:
+With predicates like de, van etc.:
 
 .. code-block:: xml
    :linenos:
