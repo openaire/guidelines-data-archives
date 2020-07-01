@@ -5,7 +5,7 @@ Creator (M, 1-n)
 
 ``datacite:creator``
 
-The authors of the research output in priority order. May be corporate/institutional or personal names.
+The authors of the research output in priority order. May be corporate/institutional or personal creators.
 
 .. _datacite:creator_creatorName:
 
