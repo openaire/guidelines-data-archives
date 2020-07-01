@@ -20,12 +20,12 @@ Property fundingReference (MA, 0-n)
 
 Specification of funding by way of a project.
 
-Subpropberty funderName (M, 1)
+Subproperty funderName (M, 1)
 ~~~~~~~~~~~~~~~~
 
 Name of the funding provider.
 
-Subpropberty funderIdentifier (MA, 0-n)
+Subproperty funderIdentifier (MA, 0-n)
 ~~~~~~~~~~~~~~~~
 
 Unique identifier of the funding body. As identifiers are more distinct than names, available funder identifiers should be given.
