@@ -93,7 +93,10 @@ Subproperty affiliation (O, 0-n)
 
 The organizational or institutional affiliation of the creator.
 
-**Examples**
+Examples
+-------
+
+With initials:
 
 .. code-block:: xml
    :linenos:
@@ -107,6 +110,7 @@ The organizational or institutional affiliation of the creator.
 With de:
 
 .. code-block:: xml
+   :linenos:
 
   <creator>
      <creatorName>Smit, J.H. (John Hubert) de</creatorName>
@@ -128,11 +132,15 @@ With generational suffixes (Jr., Sr., etc.):
     <creatorName>Smit Jr., J.H. (John) de</creatorName>
   </creator>
 
+When the creator is an organization/institution:
+
 .. code-block:: xml
 
   <creator>
     <creatorName>Utrecht University. Department of Computer Sciences</creatorName>
   </creator>
+
+With affiliation:
 
 .. code-block:: xml
 
