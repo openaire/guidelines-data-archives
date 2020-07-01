@@ -17,18 +17,10 @@ Subpropberty funderName (M, 1)
 
 Name of the funding provider.
 
-**Allowed values, other constraints**
-
-Free text.
-
 Subpropberty funderIdentifier (MA, 0-n)
 ~~~~~~~~~~~~~~~~
 
 Unique identifier of the funding body. As identifiers are more distinct than names, available funder identifiers should be given.
-
-**Allowed values, other constraints**
-
-Free text.
 
 Attribute funderIdentifierType (M, 1)
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -53,10 +45,6 @@ Subproperty awardNumber (M, 0-1)
 
 The funder's code of the award (grant), i.e. the project number.
 
-**Allowed values, other constraints**
-
-Free text.
-
 Attribute awardURI (O, 0-1)
 '''''''''''''''''''''''''''''''''''''''''''''''''
 
@@ -70,10 +58,6 @@ Subproperty awardTitle (O, 0-1)
 ~~~~~~~~~~~~~~~~
 
 The title or name of the award (grant). 
-
-**Allowed values, other constraints**
-
-Free text.
 
 Examples
 --------
