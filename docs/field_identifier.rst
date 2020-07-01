@@ -1,21 +1,25 @@
 .. _dci:identifier:
 
-Identifier (M)
+Identifier (M, 1)
 ==============
 
 ``datacite:identifier``
 
-The Identifier is a unique string that identifies a resource (occurrences: 1).
+The identifier is a unique string that identifies a resource.
+
+Property identifier (M, 1)
+----------------
 
 **Allowed values, examples, other constraints**
 
-Format should be “10.1234/foo”
+Format should be “10.1234/foo”.
 
 .. _d:identifiertype:
 
-0.1 identifierType (M)
+Attribute identifierType (M, 1)
 -----------------------
-The type of the Identifier (occurrences: 1).
+
+The type of the identifier.
 
 **Allowed values, examples, other constraints**
 
@@ -32,15 +36,23 @@ The type of the Identifier (occurrences: 1).
 * URN
 * URL
 
-.. note::
-   Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.
-
-
-**Example**
-
+Example
+-------
 
 .. code-block:: xml
    :linenos:
 
    <identifier identifierType="DOI">10.5281/zenodo.44383</identifier>
    
+Context
+-------
+
+**Do Not Confuse With**
+
+
+
+**DataCite v4.3 Differentiation**
+
+* Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers also.
+
+**OpenAIRE Data Guidelines v2 Differentiation**
