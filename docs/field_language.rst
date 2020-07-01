@@ -1,21 +1,11 @@
 .. _dci:language:
 
-Language (MA)
+Language (MA, 0-n)
 =============
 
 ``datacite:language``
 
-Cardinality
-~~~~~~~~~~~
-
-*Mandatory if applicable*
-
-*Occurrence: 0-n*
-
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**DCMI Definition**
+*DCMI Definition*
 
 A language of the intellectual content of the resource.
 
@@ -35,24 +25,32 @@ If necessary, repeat this element to indicate multiple languages.
 
 # If ISO 639-2 and 639-1 are sufficient for the contents of a repository they can be used alternatively. Since there is a unique mapping this can be done during an aggregation process.
 
-**Remarks**
-
-* adapted from `DataCite MetadataKernel`_ v4.3
-
 Property language (MA, 0-n)
 ---------------------------
 
 Use the language code as value.
 
-Example
-~~~~~~~
+Examples
+-------
 
 .. code-block:: xml
    :linenos:
-
 
    <datacite:language>en-US</datacite:language>
    <datacite:language>de-DE</datacite:language>
 
 .. _DRIVER Guidelines v2 element language: https://wiki.surfnet.nl/display/DRIVERguidelines/Language
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.3/
+
+Context
+-------
+
+**Do Not Confuse With**
+
+
+
+**DataCite v4.3 Differentiation**
+
+
+
+**OpenAIRE Data Guidelines v2 Differentiation**
