@@ -1,84 +1,69 @@
 .. _dci:creator:
 
-Creator (M)
+Creator (M, 1-n)
 ===========
 
 ``datacite:creator``
 
-The authors of the software in priority order. May be a corporate/institutional or personal name.
-
-Cardinality
-~~~~~~~~~~~
-
-*Mandatory*
-
-*Occurrence: 1-n*
-
-
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The authors of the publication in priority order. May be a corporate/institutional or personal name.
-
-**Do Not Confuse With**
-
-.. * :ref:`dci:contributor`
-.. * :ref:`dci:publisher`
-
-**Remarks**
-
-* adapted from `DataCite MetadataKernel`_ v4.3
-
+The authors of the research output in priority order. May be corporate/institutional or personal names.
 
 .. _datacite:creator_creatorName:
 
-0.1 creatorName (M)
--------------------
+Property creator (M, 1,n)
+----------------
 
-The name of the author (occurrence: 1). 
-The format should be: family, given. Non-roman names may be transliterated according to the `ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_ schemas.
+A single creator.
+
+Subproperty creatorName (M, 1)
+~~~~~~~~~~~~~~~~
+
+The name of the author. 
+
+The format should be: family, given. Non-roman names may be transliterated according to the `ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_ schemas. When in doubt, give the name as it appears, and do not invert. Omit titles (like “Dr”).
+
+In the case of an organization name which clearly includes an organizational hierarchy, list the parts of the hierarchy from largest to smallest, separated by full stops.
 
 .. The name of the author.
 .. Use inverted name, so the syntax will be the following: “surname”, “initials” (“first name”) “prefix”.
 
 Distinguished by attribute:   *xml:lang*
 
-0.1.1 nameType (R)
-------------------
+Attribute nameType (R, 0-1)
+^^^^^^^^^^^^^^^^^
 
-Attribute: The type of name (occurrence: 0-1).
+The type of name denotes whether the creator is corporate/institutional or personal.
 
 .. include:: vocabularies/nametype.rst
 
 
 .. _datacite:creator_givenName:
 
-0.2 givenName (R)
------------------
+Subproperty givenName (R, 0-1)
+~~~~~~~~~~~~~~~~
 
 The personal or first name of the author.
 
 .. _datacite:creator_familyName:
 
-0.3 familyName (R)
-------------------
+Subproperty familyName (R, 0-1)
+~~~~~~~~~~~~~~~~
 
 The surname or last name of the author.
 
 .. _datacite:creator_nameIdentifier:
 
-0.4 nameIdentifier (R)
-----------------------
+Subproperty nameIdentifier (R, 0-n)
+~~~~~~~~~~~~~~~~
 
 Uniquely identifies an individual or legal entity, according to various schemes.
 
 .. _datacite:creator_nameIdentifier_nameIdentifierScheme:
 
-0.4.1 nameIdentifierScheme (R)
+Attribute nameIdentifierScheme (R, 0-1)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Attribute: The name of the name identifier scheme.
-Uniquely identifies an individual or legal entity, according to various schemes (occurrences: 0-n).
+The name of the name identifier scheme.
+Uniquely identifies an individual or legal entity, according to various schemes.
 The format is dependent upon scheme.
 
 **Allowed values, examples, other constraints**
@@ -91,58 +76,31 @@ Examples:
 * ``ResearcherID`` - |ResearcherID|
 * national organisation ID authoritative systems
 
-.. note::
-   OpenAIRE recommends including a nameIdentifier such as an ORCID or a ISNI if available.
-
 .. _datacite:creator_nameIdentifier_schemeURI:
 
-0.4.2 schemeURI (O)
+Attribute schemeURI (O, 0-1)
 ^^^^^^^^^^^^^^^^^^^
 
-Attribute: The URI of the name identifier scheme.
+The URI of the name identifier scheme.
 
 .. _datacite:creator_affiliation:
 
-0.5 affiliation (O)
--------------------
+Subproperty affiliation (O, 0-n)
+~~~~~~~~~~~~~~~~
 
 The organizational or institutional affiliation of the creator.
 
 **Usage Instruction**
 
- For example John Hubert de Smit becomes
 
-.. code-block:: xml
 
-  <creator>
-     <creatorName>Smit, J.H. (John Hubert) de</creatorName>
-  </creator>
 
-When initials and first name are both available use this formatting:
 
-.. code-block:: xml
 
-  <creator>
-    <creatorName>Janssen, J. (John)</creatorName>
-  </creator>
-
-Generational suffixes (Jr., Sr., etc.) should follow the surname. When in doubt, give the name as it appears, and do not invert. Omit titles (like “Dr”). For example: “Dr. John H. de Smit Jr.” becomes
-
-.. code-block:: xml
-
-  <creator>
-    <creatorName>Smit Jr., J.H. (John) de</creatorName>
-  </creator>
-
-In the case of an organization name which clearly includes an organizational hierarchy, list the parts of the hierarchy from largest to smallest, separated by full stops.
 
 For example:
 
-.. code-block:: xml
 
-  <creator>
-    <creatorName>Utrecht University. Department of Computer Sciences</creatorName>
-  </creator>
 
 If it is not clear whether there is a hierarchy present, or unclear which is the larger or smaller portion of the body, give the name as it appears in the resource. Only encode organisations in this element to indicate corporate authorship, not to indicate the affiliation of an individual.
 
@@ -160,9 +118,9 @@ It is recommended to encode thesauri with an URI, for service providers to recog
     </nameIdentifier>
   </creator>
 
-In cases of lesser responsibility, other than authorship, use ``datacite:contributor``. 
+ 
 
-**Example**
+**Examples**
 
 .. code-block:: xml
    :linenos:
@@ -170,8 +128,49 @@ In cases of lesser responsibility, other than authorship, use ``datacite:contrib
    <creator>
      <creatorName>Evans, R.J.</creatorName>
      <affiliation></affiliation>
-     <nameIdentifier nameIdentifierScheme="ORCID"
-                     schemeURI="http://orcid.org">
-       1234-1234-1234-1234
-     </nameIdentifier>
+     <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org">1234-1234-1234-1234</nameIdentifier>
    </creator>
+
+With de:
+
+.. code-block:: xml
+
+  <creator>
+     <creatorName>Smit, J.H. (John Hubert) de</creatorName>
+  </creator>
+
+With both initials and first name:
+
+.. code-block:: xml
+
+  <creator>
+    <creatorName>Janssen, J. (John)</creatorName>
+  </creator>
+
+With generational suffixes (Jr., Sr., etc.):
+
+.. code-block:: xml
+
+  <creator>
+    <creatorName>Smit Jr., J.H. (John) de</creatorName>
+  </creator>
+
+.. code-block:: xml
+
+  <creator>
+    <creatorName>Utrecht University. Department of Computer Sciences</creatorName>
+  </creator>
+
+Context
+-------
+
+**Do Not Confuse With**
+
+* :ref:`dci:contributor` (In cases of lesser responsibility, other than authorship, use ``datacite:contributor``).
+* :ref:`dci:publisher`
+
+**DataCite v4.3 Differentiation**
+
+* OpenAIRE recommends including a nameIdentifier such as an ORCID or a ISNI if available.
+
+**OpenAIRE Data Guidelines v Differentiation**
