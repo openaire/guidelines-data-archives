@@ -9,8 +9,6 @@ Subject, keyword, classification code, or key phrase describing the resource.
 
 **Usage Instruction**
 
-In the subject property two kinds of values are possible: encode either a keyword or a classification. 
-
 In general, choose the most significant and unique words for keywords, avoiding those too general to describe a particular resource. 
 
 For keywords/keyphrases that are not controlled by a vocabulary or thesaurus either encode multiple terms with a semi-colon separating each keyword/keyphrase;
