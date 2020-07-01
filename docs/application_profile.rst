@@ -46,7 +46,6 @@ OpenAIRE-Field                           Metadata Element              Refinemen
                                                                        | :ref:`resourcetype general <vocab:resourcetypegeneral_resourcetypegeneral>`
 :ref:`dci:resourceType`                  datacite:resourceType         `COAR Resource Type Vocabulary`_
 :ref:`dci:accessrights`                  datacite:rights               `COAR Access Right Vocabulary`_
-:ref:`aire:licenceCondition`             datacite:rights               `COAR Access Right Vocabulary`_
 :ref:`dci:size`                          datacite:size
 :ref:`dci:version`                       datacite:version              `COAR Version Vocabulary`_ 
 :ref:`dci:geolocation`                   datacite:geoLocation
