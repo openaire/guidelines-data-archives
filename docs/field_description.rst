@@ -31,9 +31,10 @@ The type of the description.
 * ``Methods``
 * ``SeriesInformation``
 * ``TableOfContents``
+* ``TechnicalInfo``
 * ``Other``
 
-.. _@xml:lang:
+.. _xml:lang:
 .. _d:descriptionlang:
 
 Attribute xml:lang (R, 0-1)
