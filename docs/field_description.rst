@@ -11,10 +11,6 @@ Property description (MA, 0-n)
 
 It is a best practice to supply a description. Also all additional information that does not fit in any of the other categories. May be used for technical information.
 
-**Allowed values, other constraints**
-
-The format is open.
-
 .. _@descriptionType:
 .. _d:descriptiontype:
 
