@@ -1,6 +1,6 @@
 .. include:: /common/replacements.rst
 
-.. _dci:dci:fundingReference:
+.. _dci:fundingReference:
 
 Funding Reference (MA, 0-n)
 ===========
@@ -25,10 +25,14 @@ Subproperty funderName (M, 1)
 
 Name of the funding provider.
 
+.. _funderIdentifier:
+
 Subproperty funderIdentifier (MA, 0-n)
 ~~~~~~~~~~~~~~~~
 
 Unique identifier of the funding body. As identifiers are more distinct than names, available funder identifiers should be given.
+
+.. _funderIdentifierType:
 
 Attribute funderIdentifierType (M, 1)
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -47,6 +51,8 @@ The type of the funder identifier.
 * ``OrgRef`` - |OrgRef|
 * national organisation ID authoritative systems (e.g. PTCRIS_OrgID (Portugal))
 * ``Other``
+
+.. _awardNumber:
 
 Subproperty awardNumber (M, 0-1)
 ~~~~~~~~~~~~~~~~
@@ -102,8 +108,8 @@ Context
 
 * fundingReference_ is *mandatory if applicable* in OpenAIRE instead of *optional* in DataCite.
 * funderIdentifier_ is *mandatory if applicable* in OpenAIRE instead of *optional* in DataCite.
-* funderIdentifier_ can occur |funderIdentifierOcc| times in OpenAIRE instead of 0-1 times in DataCite.
-* `@funderIdentifierType`_ allows more types in OpenAIRE than in DataCite.
+* funderIdentifier_ can occur 0-n times in OpenAIRE instead of 0-1 times in DataCite.
+* `funderIdentifierType`_ allows more types in OpenAIRE than in DataCite.
 * awardNumber_ is *mandatory* in OpenAIRE instead of *optional* for DataCite.
 
 **OpenAIRE Data Guidelines v3 Differentiation**
