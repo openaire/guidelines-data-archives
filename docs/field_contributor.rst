@@ -29,10 +29,10 @@ The name of the contributor.
 
 .. _dci:contributor_nameType:
 
-Attribute nameType (R)
+Attribute nameType (R, 0-1)
 **********************
 
-The type of name (occurrence: 0-1).
+The type of name.
 
 .. include:: vocabularies/nametype.rst
 
