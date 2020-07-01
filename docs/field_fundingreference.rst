@@ -6,7 +6,6 @@ Funding Reference (MA, 0-n)
 ===========
 
 Specification of financial support (funding) by funders. If the described items where assembled in the course of funded projects, this should be stated here.
-(obligation: |FundingReferencesObl| occurrence: |FundingReferencesOcc|)
 
 Property fundingReference (M, 0-n)
 ----------------
