@@ -17,7 +17,7 @@ Format should be “10.1234/foo”.
 .. _d:identifiertype:
 
 Attribute identifierType (M, 1)
------------------------
+~~~~~~~~~~~~~~~~
 
 The type of the identifier.
 
