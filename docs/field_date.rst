@@ -61,3 +61,16 @@ Examples
 
 .. _DRIVER Guidelines v2 element date: https://wiki.surfnet.nl/display/DRIVERguidelines/Date
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.3/
+
+Context
+-------
+
+**Do Not Confuse With**
+
+
+
+**DataCite v4.3 Differentiation**
+
+
+
+**OpenAIRE Data Guidelines v2 Differentiation**
