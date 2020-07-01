@@ -104,7 +104,7 @@ Context
 * :ref:`d:contributor` (Use ``contributor`` in cases of lesser responsibility)
 * :ref:`d:publisher` (Use ``publisher`` for organisations e.g. when the nature of responsibility is ambiguous)
 
-**DataCite v4.1 Differentiation**
+**DataCite v4.3 Differentiation**
 
 * fundingReference_ is *mandatory if applicable* in OpenAIRE instead of *optional* in DataCite.
 * funderIdentifier_ is *mandatory if applicable* in OpenAIRE instead of *optional* in DataCite.
@@ -112,7 +112,7 @@ Context
 * `funderIdentifierType`_ allows more types in OpenAIRE than in DataCite.
 * awardNumber_ is *mandatory* in OpenAIRE instead of *optional* for DataCite.
 
-**OpenAIRE Data Guidelines v3 Differentiation**
+**OpenAIRE Data Guidelines v Differentiation**
 
 * Following DataCite v3, the former OpenAIRE Data Guidelines used ``contributor`` (with ``contributorType`` Funder) to indicate funding information.
 * The formerly applied `info:eu-repo/grantAgreement/[Funder]/[FundingProgram]/[ProjectID]/[Jurisdiction]/[ProjectName]/[ProjectAcronym] <http://purl.org/eu-repo/semantics/#info-eu-repo-GrantAgreementIdentifiers>`_ notation is replaced by the detailed DataCite properties.
