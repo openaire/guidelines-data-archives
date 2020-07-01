@@ -1,23 +1,13 @@
 .. _dci:publisher:
 
-Publisher (MA)
+Publisher (MA, 0-n)
 ==============
 
 ``datacite:publisher``
 
-Cardinality
-~~~~~~~~~~~
+The name of the entity that holds, archives, publishes prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role. For software, use Publisher for the code repository. If there is an entity other than a code repository, that "holds, archives, publishes, prints, distributes, releases, issues, or produces" the code, use the property contributor/contributorType/hostingInstitution for the code repository.
 
-*Mandatory if applicable*
-
-*Occurrence: 0-n*
-
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The name of the entity that holds, archives, publishes prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role. For software, use Publisher for the code repository. If there is an entity other than a code repository, that "holds, archives, publishes, prints, distributes, releases, issues, or produces" the code, use the property Contributor/contributorType/hostingInstitution for the code repository.
-
-An entity responsible for making the resource available. Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.
+An entity responsible for making the resource available. Examples of a publisher include a person, an organization, or a service. Typically, the name of a publisher should be used to indicate the entity.
 
 **Usage Instruction**
 
@@ -27,22 +17,13 @@ With university publications place the name of the faculty and/or research group
 
 The use of publisher names from authority lists constructed according to local or national thesaurus files is optional.
 
-**Do Not Confuse With**
-
-
-In most cases the publisher and the creator are not the same.
-
-**Remarks**
-
-* adapted from `DataCite MetadataKernel`_ v4.3
-
 Property publisher (MA, 0-n)
 ----------------------------
 
 Use the name of the publisher as value.
 
-Example
-~~~~~~~
+Examples
+-------
 
 .. code-block:: xml
    :linenos:
@@ -55,3 +36,16 @@ Example
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.3/
 .. _DRIVER Guidelines v2 element publisher: https://wiki.surfnet.nl/display/DRIVERguidelines/Publisher
 
+Context
+-------
+
+**Do Not Confuse With**
+
+* :ref:`dci:contributor`
+* :ref:`dci:creator`
+
+**DataCite v4.3 Differentiation**
+
+
+
+**OpenAIRE Data Guidelines v2 Differentiation**
