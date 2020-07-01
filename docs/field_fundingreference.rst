@@ -37,7 +37,7 @@ The type of the funder identifier.
 
 **Allowed values, other constraints**
 
-*Examples:*
+*Exemplary Values:*
 
 * ``ISNI`` - |ISNI|
 * ``VIAF`` - |VIAF|
