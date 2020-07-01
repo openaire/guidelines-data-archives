@@ -12,6 +12,9 @@ The alternateIdentifier serves two purposes:
 * Collecting all or many identifiers other than the primary identifier applied to the resource being registered (same instance - same location, same file).
 * Registering two especially relevant kinds of web pages dedicated to the resource, namely landing pages and download pages.
 
+Property alternateIdentifier (R, 0-n)
+----------------
+
 **Allowed values, other constraints**
 
 Secondary identifiers preferably should be durable, and also comprise local identifiers. All existing identifiers for the resource are appreciated. The format is free text - any alphanumeric string which is unique within its domain of issue and follows the respective specifications.
@@ -20,8 +23,9 @@ Web pages dedicated to the resource, i.e. landing pages or download pages, are g
 
 .. _d:alternateidentifiertype:
 
-11.1 @alternateIdentifierType (M, 1)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Attribute alternateIdentifierType (M, 1)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The type of the alternateIdentifier.
 
