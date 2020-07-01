@@ -22,6 +22,9 @@ The name of the author.
 The format should be: family, given. Non-roman names may be transliterated according to the `ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_ schemas. When in doubt, give the name as it appears, and do not invert. Omit titles (like “Dr”).
 
 In the case of an organization name which clearly includes an organizational hierarchy, list the parts of the hierarchy from largest to smallest, separated by full stops.
+If it is not clear whether there is a hierarchy, or unclear which is the larger or smaller portion of the body, give the name as it appears in the resource. Only encode organisations in this element to indicate corporate authorship, not to indicate the affiliation of an individual.
+
+The inclusion of personal and corporate name headings from authority lists constructed according to local or national thesaurus files is optional.
 
 .. The name of the author.
 .. Use inverted name, so the syntax will be the following: “surname”, “initials” (“first name”) “prefix”.
@@ -90,36 +93,6 @@ Subproperty affiliation (O, 0-n)
 
 The organizational or institutional affiliation of the creator.
 
-**Usage Instruction**
-
-
-
-
-
-
-
-For example:
-
-
-
-If it is not clear whether there is a hierarchy present, or unclear which is the larger or smaller portion of the body, give the name as it appears in the resource. Only encode organisations in this element to indicate corporate authorship, not to indicate the affiliation of an individual.
-
-The inclusion of personal and corporate name headings from authority lists constructed according to local or national thesaurus files is optional.
-
-It is recommended to encode thesauri with an URI, for service providers to recognise the thesaurus schema. For example:
-
-.. code-block:: xml
-
-  <creator>
-    <creatorName>Smit Jr., J.H. (John) de</creatorName>
-    <affiliation>Institute of Science and Technology</affiliation>
-    <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org">
-        1234-5678-0987-1234
-    </nameIdentifier>
-  </creator>
-
- 
-
 **Examples**
 
 .. code-block:: xml
@@ -161,6 +134,14 @@ With generational suffixes (Jr., Sr., etc.):
     <creatorName>Utrecht University. Department of Computer Sciences</creatorName>
   </creator>
 
+.. code-block:: xml
+
+  <creator>
+    <creatorName>Smit Jr., J.H. (John) de</creatorName>
+    <affiliation>Institute of Science and Technology</affiliation>
+    <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org">1234-5678-0987-1234</nameIdentifier>
+  </creator>
+
 Context
 -------
 
@@ -173,4 +154,4 @@ Context
 
 * OpenAIRE recommends including a nameIdentifier such as an ORCID or a ISNI if available.
 
-**OpenAIRE Data Guidelines v Differentiation**
+**OpenAIRE Data Guidelines v2 Differentiation**
