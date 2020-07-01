@@ -5,9 +5,8 @@ Publisher (MA, 0-n)
 
 ``datacite:publisher``
 
-The name of the entity that holds, archives, publishes prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role. A code/data repository might be put into publisher or into contributor/contributorType/hostingInstitution.
-
-An entity responsible for making the resource available. Examples of a publisher include a person, an organization, or a service. Typically, the name of a publisher should be used to indicate the entity.
+An entity responsible for making the resource available. The entity that holds, archives, publishes prints, distributes, releases, issues, or produces the resource. Publishers may be persons, organizations, or services. A code/data repository might be put into publisher or, if several agents make the entity available, into contributor/contributorType/hostingInstitution.
+This property will is used for citations, and so gets prominently visible. 
 
 **Usage Instruction**
 
