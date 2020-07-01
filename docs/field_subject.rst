@@ -5,20 +5,7 @@ Subject (MA, 0-n)
 
 ``datacite:subject``
 
-(Obligation: MA, occurrence: 0-n)
-
-Cardinality
-~~~~~~~~~~~
-
-*Mandatory if applicable*
-
-*Occurrence: 0-n*
-
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Subject, keyword, classification code, or key phrase describing the resource (occurrences: 0-n).
-
+Subject, keyword, classification code, or key phrase describing the resource.
 
 **Usage Instruction**
 
@@ -36,10 +23,6 @@ It is recommended to use an URI when using classification schemes or controlled 
 If no specific classification scheme is used we recommend the Dewey Decimal Classification (DDC). 
 More information about the DDC and the DDC Summaries can be found at https://www.oclc.org/en/dewey/resources.html . Please note that OCLC owns all copyright rights in the Dewey Decimal Classification system. Dewey, Dewey Decimal Classification, DDC, OCLC and WebDewey are registered trademarks of OCLC.
 
-**Remarks**
-
-* adapted from `DataCite MetadataKernel`_ v4.3
-
 Property subject (MA, 0-n)
 --------------------------
 
@@ -47,15 +30,13 @@ Use subject name or keyword as value.
 
 .. _dci:subject_subjectScheme:
 
-Attribute subjectScheme (O)
+Attribute subjectScheme (O, 0-1)
 ---------------------------
-The name of the subject scheme or classification code or authority if one is used (occurrences: 0-1).
+The name of the subject scheme or classification code or authority if one is used.
 
 **Allowed values, examples, other constraints**
 
-Free text.
-
-*Examples:*
+*Exemplary Values:*
 
 * ``DDC`` - |DDC|
 * ``STW`` - |STW|
@@ -63,19 +44,19 @@ Free text.
 
 .. _dci:subject_schemeUri:
 
-Attribute schemeURI (O)
+Attribute schemeURI (O, 0-1)
 -----------------------
-The URI of the subject identifier scheme (occurrences: 0-1).
+The URI of the subject identifier scheme.
 
 **Allowed values, examples, other constraints**
 
-Examples:
+*Exemplary Values:*
 
 * http://id.loc.gov/authorities/subjects
 * http://zbw.eu/stw
 * http://aims.fao.org/standards/agrovoc
 
-Attribute valueURI (O)
+Attribute valueURI (O, 0-1)
 ----------------------
 The URI of the subject term.
 
@@ -91,8 +72,9 @@ The language of the subject synonym.
 * IETF BCP 47 - |IETF BCP 47|
 * ISO 639-x - |ISO 639-x|
 
-Example
-~~~~~~~
+Examples
+-------
+
 .. code-block:: xml
    :linenos:
 
@@ -118,7 +100,7 @@ Context
 
 * `@xml:lang`_ is *recommenced* in OpenAIRE instead of *optional* in DataCite.
 
-**OpenAIRE Data Guidelines v3 Differentiation**
+**OpenAIRE Data Guidelines v Differentiation**
 
 * `@xml:lang`_ is newly added.
 * `@valueUri`_ is newly added.
