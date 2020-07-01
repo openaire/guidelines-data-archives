@@ -71,7 +71,7 @@ The format is dependent upon scheme.
 
 **Allowed values, examples, other constraints**
 
-Examples:
+*Examplary Values:*
 
 * ``ISNI`` - |ISNI|
 * ``ORCID`` - |ORCID|
