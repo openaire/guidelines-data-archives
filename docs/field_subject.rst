@@ -27,7 +27,8 @@ Use subject name or keyword as value.
 .. _dci:subject_subjectScheme:
 
 Attribute subjectScheme (O, 0-1)
----------------------------
+~~~~~~~~~~~~~~~~
+
 The name of the subject scheme or classification code or authority if one is used.
 
 **Allowed values, examples, other constraints**
@@ -41,7 +42,8 @@ The name of the subject scheme or classification code or authority if one is use
 .. _dci:subject_schemeUri:
 
 Attribute schemeURI (O, 0-1)
------------------------
+~~~~~~~~~~~~~~~~
+
 The URI of the subject identifier scheme.
 
 **Allowed values, examples, other constraints**
@@ -53,11 +55,12 @@ The URI of the subject identifier scheme.
 * http://aims.fao.org/standards/agrovoc
 
 Attribute valueURI (O, 0-1)
-----------------------
+~~~~~~~~~~~~~~~~
+
 The URI of the subject term.
 
 Attribute xml:lang (R, 0-1)
------------------------
+~~~~~~~~~~~~~~~~
 
 The language of the subject synonym.
 
