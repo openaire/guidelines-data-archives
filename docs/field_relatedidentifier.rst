@@ -12,18 +12,15 @@ Identifiers of related resources other than the resource being registered. OpenA
 Property relatedIdentifier (MA, 0-n)
 ----------------
 
-**Allowed values, other constraints**
+*Allowed Values, Other Constraints*
 
-A related identifier must be globally unique and should be durable. Preferrably it is registered with an established identification system, or is a permalink or stable URL.
-
-The format is free text - a unique string that unambiguously identifies a resource within its given context and follows the respective specifications.
+* A related identifier must be globally unique and should be durable. Preferrably it is registered with an established identification system, or is a permalink or stable URL.
+* he format is free text - a unique string that unambiguously identifies a resource within its given context and follows the respective specifications.
 
 Attribute relatedIdentifierType (M, 1)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The type of the related identifier.
-
-**Allowed values, other constraints**
 
 *Controlled List Values:*
 
@@ -53,27 +50,25 @@ Attribute relationType (M, 1)
 
 The relationship of the resource being registered (A) with the related resource (B).
 
-**Allowed values, other constraints**
-
 *Controlled List Values:*
 
-* ``IsCitedBy``/``Cites`` (B includes A in a citation), (A includes B in a citation)
-* ``IsSupplementTo``/``IsSupplementedBy`` (A is a supplement to B), (B is a supplement to A)
-* ``IsContinuedBy``/``Continues`` (A is continued by the work B), (A is a continuation of the work B)
-* ``Describes``/``IsDescribedBy`` (A describes B), (A is described by B)
-* ``HasMetadata``/``IsMetadataFor`` (resource A has additional metadata B), (additional metadata A for a resource B)
-* ``HasVersion``/``IsVersionOf`` (A has a version (B)), (A is a version of B)
-* ``IsNewVersionOf``/``IsPreviousVersionOf`` (A is a new edition of B, where the new edition has been modified or updated), (A is a previous edition of B)
-* ``IsPartOf``/``HasPart`` (A is a portion of B, may be used for elements of a series), (A includes the part B)
-* ``IsReferencedBy``/``References`` (A is used as a source of information by B), (B is used as a source of information for A)
-* ``IsDocumentedBy``/``Documents`` (B is documentation about/explaining A), (A is documentation about/explaining B)
-* ``isCompiledBy``/``Compiles`` (B is used to compile or create A), (B is the result of a compile or creation event using A)
-* ``IsVariantFormOf``/``IsOriginalFormOf`` (A is a variant or different form of B, e.g. calculated or calibrated form or different packaging), (A is the original form of B)
-* ``IsIdenticalTo`` (A is identical to B, for use when there is a need to register two separate instances of the same resource)
-* ``IsReviewedBy``/``Reviews`` (A is reviewed by B), (A is a review of B)
-* ``IsDerivedFrom``/``IsSourceOf`` (B is a source upon which A is based), (A is a source upon which B is based)
-* ``IsRequiredBy``/``Requires`` (A is required by B), (A requires B)
-* ``IsObsoletedBy``/``Obsoletes`` (A is replaced by B), (A requires B)
+* ``IsCitedBy``/``Cites`` - (B includes A in a citation), (A includes B in a citation)
+* ``IsSupplementTo``/``IsSupplementedBy`` - (A is a supplement to B), (B is a supplement to A)
+* ``IsContinuedBy``/``Continues`` - (A is continued by the work B), (A is a continuation of the work B)
+* ``Describes``/``IsDescribedBy`` - (A describes B), (A is described by B)
+* ``HasMetadata``/``IsMetadataFor`` - (resource A has additional metadata B), (additional metadata A for a resource B)
+* ``HasVersion``/``IsVersionOf`` - (A has a version (B)), (A is a version of B)
+* ``IsNewVersionOf``/``IsPreviousVersionOf`` - (A is a new edition of B, where the new edition has been modified or updated), (A is a previous edition of B)
+* ``IsPartOf``/``HasPart`` - (A is a portion of B, may be used for elements of a series), (A includes the part B)
+* ``IsReferencedBy``/``References`` - (A is used as a source of information by B), (B is used as a source of information for A)
+* ``IsDocumentedBy``/``Documents`` - (B is documentation about/explaining A), (A is documentation about/explaining B)
+* ``isCompiledBy``/``Compiles`` - (B is used to compile or create A), (B is the result of a compile or creation event using A)
+* ``IsVariantFormOf``/``IsOriginalFormOf`` - (A is a variant or different form of B, e.g. calculated or calibrated form or different packaging), (A is the original form of B)
+* ``IsIdenticalTo`` - (A is identical to B, for use when there is a need to register two separate instances of the same resource)
+* ``IsReviewedBy``/``Reviews`` - (A is reviewed by B), (A is a review of B)
+* ``IsDerivedFrom``/``IsSourceOf`` - (B is a source upon which A is based), (A is a source upon which B is based)
+* ``IsRequiredBy``/``Requires`` - (A is required by B), (A requires B)
+* ``IsObsoletedBy``/``Obsoletes`` - (A is replaced by B), (A requires B)
 
 ``Cites`` and ``IsCitedBy`` is dedicated to publications/datasets directly citing other publications/datasets in their references, whereas ``References`` and ``IsReferencedBy`` describes datasets/publications being used as information sources without direct citations.
 
@@ -98,7 +93,7 @@ Attribute relatedMetadataScheme (O, 0-1)
 
 The name of the metadata scheme.
 
-**Allowed values, other constraints**
+*Allowed Values, Other Constraints*
 
 Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
@@ -109,7 +104,7 @@ Attribute schemeURI (O, 0-1)
 
 The URI of the relatedMetadataScheme.
 
-**Allowed values, other constraints**
+*Allowed Values, Other Constraints*
 
 Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
@@ -120,7 +115,7 @@ Attribute schemeType (O, 0-1)
 
 The type of the relatedMetadataScheme, linked via the schemeURI.
 
-**Allowed values, other constraints**
+*Allowed Values, Other Constraints*
 
 Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
