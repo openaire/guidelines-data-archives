@@ -61,7 +61,7 @@ The relationship of the resource being registered (A) with the related resource 
 * ``IsSupplementTo``, ``IsSupplementedBy`` (A is a supplement to B), (B is a supplement to A)
 * ``IsContinuedBy``, ``Continues`` (A is continued by the work B), (A is a continuation of the work B)
 * ``Describes``, ``IsDescribedBy`` (A describes B), (A is described by B)
-* ``HasMetadata````IsMetadataFor`` (resource A has additional metadata B), (additional metadata A for a resource B)
+* ``HasMetadata``, ``IsMetadataFor`` (resource A has additional metadata B), (additional metadata A for a resource B)
 * ``HasVersion``, ``IsVersionOf`` (A has a version (B)), (A is a version of B)
 * ``IsNewVersionOf``, ``IsPreviousVersionOf`` (A is a new edition of B, where the new edition has been modified or updated), (A is a previous edition of B)
 * ``IsPartOf``, ``HasPart`` (A is a portion of B, may be used for elements of a series), (A includes the part B)
