@@ -15,8 +15,7 @@ Use the language code as value. In case the resource utilizes several languages,
 
 *Allowed values, examples, other constraints:*
 
-* Allowed values are to be taken from IETF BCP 47, ISO 639-1 language codes.
-Examples: en, de, fr
+* Allowed values are to be taken from IETF BCP 47, ISO 639-1 language codes. Examples: en, de, fr
 
 Examples
 -------
