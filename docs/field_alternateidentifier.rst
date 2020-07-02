@@ -15,7 +15,7 @@ The alternateIdentifier serves two purposes:
 Property alternateIdentifier (R, 0-n)
 ----------------
 
-*Allowed Values, Other Constraints*
+*Allowed values, other constraints:*
 
 * Secondary identifiers preferably should be durable, and also comprise local identifiers. All existing identifiers for the resource are appreciated.
 * The format is free text - any alphanumeric string which is unique within its domain of issue and follows the respective specifications.
@@ -28,7 +28,7 @@ Attribute alternateIdentifierType (M, 1)
 
 The type of the alternateIdentifier.
 
-*Exemplary Values for Secondary Identifiers (Established and non-Standard Identifier Types):*
+*Exemplary values for secondary identifiers (established and non-standard identifier types):*
 
 * ``ARK`` - |ARK|
 * ``DOI`` - |DOI|
@@ -42,7 +42,7 @@ The type of the alternateIdentifier.
 * ``local`` - a local accession number
 * ``URL`` - |URL|
 
-*Controlled Values for Specific, Important Web Pages Dedicated to the Resource:*
+*Controlled values for specific, important web pages dedicated to the resource:*
 
 * ``LandingPage`` - landing pages  
 * ``DistributionLocation`` - distribution locations
