@@ -5,7 +5,7 @@ Language (MA, 0-n)
 
 ``datacite:language``
 
-*DCMI Definition*:
+DCMI definition:
 A language of the intellectual content of the resource.
 
 Property language (MA, 0-n)
@@ -13,9 +13,9 @@ Property language (MA, 0-n)
 
 Use the language code as value. In case the resource utilizes several languages, repeat this element to indicate multiple languages.
 
-**Allowed values, examples, other constraints**
+*Allowed values, examples, other constraints:*
 
-Allowed values are to be taken from IETF BCP 47, ISO 639-1 language codes.
+* Allowed values are to be taken from IETF BCP 47, ISO 639-1 language codes.
 Examples: en, de, fr
 
 Examples
