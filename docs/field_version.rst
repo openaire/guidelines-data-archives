@@ -17,3 +17,20 @@ Property version (O, 0-1)
 
 * For version numbers any string will be accepted, but a semantically-versioned tag is recommended.
 * For more information on semantic versioning see <https://semver.org>.
+
+Examples
+-------
+
+Context
+-------
+
+**Do Not Confuse With**
+
+
+
+**DataCite v4.3 Differentiation**
+
+
+
+**OpenAIRE Data Guidelines v2 Differentiation**
+
