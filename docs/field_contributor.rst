@@ -10,7 +10,6 @@ An institution or person responsible for collecting, managing, distributing, or 
 Property contributor (MA, 0-n)
 ------------------------------
 
-
 .. _dci:contributor_contributorType:
 
 Attribute contributorType (M, 1)
@@ -32,7 +31,7 @@ The name of the contributor.
 Attribute nameType (R, 0-1)
 **********************
 
-The type of name.
+The type of the name, or rather of the contributor.
 
 .. include:: vocabularies/nametype.rst
 
@@ -64,9 +63,9 @@ Attribute nameIdentifierScheme (M, 1)
 
 The name of the name identifier scheme.
 
-**Allowed values, examples, other constraints**
+*Allowed values, examples, other constraints:*
 
-Examples:
+Exemplary values:
 
 * ``ISNI`` - |ISNI|
 * ``ORCID`` - |ORCID|
