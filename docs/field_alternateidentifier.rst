@@ -105,5 +105,5 @@ Context
 
 **OpenAIRE Data Guidelines v Differentiation**
 
-* Registering landing pages and download pages is newly introduced in the current Guideline version.
+* Registering landing pages and download pages is newly introduced in the current guideline version.
 * alternateIdentifier_ is *recommended* in this version instead of *optional*.
