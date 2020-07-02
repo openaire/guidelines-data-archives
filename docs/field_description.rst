@@ -19,9 +19,7 @@ Attribute descriptionType (M, 1)
 
 The type of the description.
 
-**Allowed values, other constraints**
-
-*Controlled List Values:*
+*Controlled list values:*
 
 * ``Abstract``
 * ``Methods``
@@ -38,9 +36,7 @@ Attribute xml:lang (R, 0-1)
 
 The language of the description.
 
-**Allowed values, other constraints**
-
-*Recommendation:* take values from one of the following lists:
+*Recommended value lists*:
 
 * IETF BCP 47 - |IETF BCP 47|
 * ISO 639-x - |ISO 639-x|
