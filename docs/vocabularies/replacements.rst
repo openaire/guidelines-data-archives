@@ -33,6 +33,7 @@
 .. |ORCID| replace:: Open Researcher and Contributor ID (resolvable via https://orcid.org/)
 .. |OrgRef| replace:: (see http://www.orgref.org)
 .. |ResearcherID| replace:: Commercial/proprietary researcher identifier owned by Clarivate Analytics
+.. |ROR| replace:: Research Organization Registry (resolvable via https://ror.org/)
 .. |VIAF| replace:: Virtual International Authority File (resolvable via https://viaf.org/viaf/)
 
 .. |IETF BCP 47| replace:: the IANA Language Subtag Registry (http://www.iana.org/assignments/language-subtag-registry)
