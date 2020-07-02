@@ -119,7 +119,7 @@ The type of the relatedMetadataScheme, linked via the schemeURI.
 
 * Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
-*Exemplary Values*:
+*Exemplary values*:
 
 * ``XSD`` - XML Schema Definition
 * ``DTD`` - Document Type Definition
