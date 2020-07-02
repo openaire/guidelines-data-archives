@@ -34,7 +34,7 @@ The type of the related identifier.
 * ``EAN13`` - |EAN13|
 * ``Handle`` - |Handle|
 * ``ISBN`` - |ISBN|
-* ``ISSN`` - |ISSN| :raw-html:`<br/>` ``EISSN`` - |EISSN| :raw-html:`<br/>` ``LISSN`` - |LISSN| :raw-html:`<br/>` ``PISSN`` - |PISSN|
+* ``ISSN`` - |ISSN|, ``EISSN`` - |EISSN|, ``LISSN`` - |LISSN|, ``PISSN`` - |PISSN|
 * ``IGSN`` - |IGSN|
 * ``ISTC`` - |ISTC|
 * ``LSID`` - |LSID|
