@@ -8,10 +8,11 @@ Title (M, 1-n)
 ``datacite:title``
 
 A name or title by which a resource is known.
-Use the title name as value. Repeat this property for titles of different types or in different languages.
 
 Property title (M, 1-n)
 ----------------
+
+Use the title name as value. Repeat this property for titles of different types or in different languages.
 
 Attribute xml:lang (R, 0-1)
 ~~~~~~~~~~~~~~~~
