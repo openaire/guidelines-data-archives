@@ -75,12 +75,7 @@ The relationship of the resource being registered (A) with the related resource 
 * ``IsRequiredBy``/``Requires`` (A is required by B), (A requires B)
 * ``IsObsoletedBy``/``Obsoletes`` (A is replaced by B), (A requires B)
 
-
-
-
-
-.. note::
-   ``Cites`` and ``IsCitedBy`` is dedicated to publications/datasets directly citing other publications/datasets in their references, whereas ``References`` and ``IsReferencedBy`` describes datasets/publications being used as information sources without direct citations.
+``Cites`` and ``IsCitedBy`` is dedicated to publications/datasets directly citing other publications/datasets in their references, whereas ``References`` and ``IsReferencedBy`` describes datasets/publications being used as information sources without direct citations.
 
 .. _d:resourceTypeGeneral:
 
