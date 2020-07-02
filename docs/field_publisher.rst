@@ -6,7 +6,7 @@ Publisher (MA, 0-n)
 ``datacite:publisher``
 
 An entity responsible for making the resource available. The entity that holds, archives, publishes prints, distributes, releases, issues, or produces the resource. Publishers may be persons, organizations, or services. A code/data repository might be put into publisher or, if several agents make the entity available, into contributor/contributorType/hostingInstitution.
-This property will is used for citations, and so gets prominently visible. 
+This property is used for citations, and so gets prominently visible. 
 
 Property publisher (MA, 0-n)
 ----------------------------
