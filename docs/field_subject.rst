@@ -95,9 +95,9 @@ Context
 
 **DataCite v4.3 Differentiation**
 
-* `@xml:lang`_ is *recommenced* in OpenAIRE instead of *optional* in DataCite.
+* `xml:lang`_ is *recommenced* in OpenAIRE instead of *optional* in DataCite.
 
 **OpenAIRE Data Guidelines v Differentiation**
 
-* `@xml:lang`_ is newly added.
-* `@valueUri`_ is newly added.
+* `xml:lang`_ is newly added.
+* `valueUri`_ is newly added.
