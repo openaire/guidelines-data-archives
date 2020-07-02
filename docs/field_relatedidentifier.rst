@@ -57,26 +57,23 @@ The relationship of the resource being registered (A) with the related resource 
 
 *Controlled List Values:*
 
-.. csv-table::
-   :widths: 50, 50
-
-   "``IsCitedBy`` (B includes A in a citation)", "``Cites`` (A includes B in a citation)"
-   "``IsSupplementTo`` (A is a supplement to B)", "``IsSupplementedBy`` (B is a supplement to A)"
-   "``IsContinuedBy`` (A is continued by the work B)", "``Continues`` (A is a continuation of the work B)"
-   "``Describes`` (A describes B)", "``IsDescribedBy`` (A is described by B)"
-   "``HasMetadata`` (resource A has additional metadata B)", "``IsMetadataFor`` (additional metadata A for a resource B)"
-   "``HasVersion`` (A has a version (B))", "``IsVersionOf`` (A is a version of B)"
-   "``IsNewVersionOf`` (A is a new edition of B, where the new edition has been modified or updated)", "``IsPreviousVersionOf`` (A is a previous edition of B)"
-   "``IsPartOf`` (A is a portion of B; may be used for elements of a series)", "``HasPart`` (A includes the part B)"
-   "``IsReferencedBy`` (A is used as a source of information by B)", "``References`` (B is used as a source of information for A)"
-   "``IsDocumentedBy`` (B is documentation about/explaining A)", "``Documents`` (A is documentation about/explaining B)"
-   "``isCompiledBy`` (B is used to compile or create A)", "``Compiles`` (B is the result of a compile or creation event using A)"
-   "``IsVariantFormOf`` (A is a variant or different form of B, e.g. calculated or calibrated form or different packaging)", "``IsOriginalFormOf`` (A is the original form of B)"
-   "``IsIdenticalTo`` (A is identical to B, for use when there is a need to register two separate instances of the same resource)"
-   "``IsReviewedBy`` (A is reviewed by B)", "``Reviews`` (A is a review of B)"
-   "``IsDerivedFrom`` (B is a source upon which A is based)", "``IsSourceOf`` (A is a source upon which B is based)"
-   "``IsRequiredBy`` (A is required by B)", "``Requires`` (A requires B)"
-   "``IsObsoletedBy`` (A is replaced by B)", "``Obsoletes`` (A requires B)"
+* ``IsCitedBy``, ``Cites`` (B includes A in a citation), (A includes B in a citation)
+* ``IsSupplementTo``, ``IsSupplementedBy`` (A is a supplement to B), (B is a supplement to A)
+* ``IsContinuedBy``, ``Continues`` (A is continued by the work B), (A is a continuation of the work B)
+* ``Describes``, ``IsDescribedBy`` (A describes B), (A is described by B)
+* ``HasMetadata````IsMetadataFor`` (resource A has additional metadata B), (additional metadata A for a resource B)
+* ``HasVersion``, ``IsVersionOf`` (A has a version (B)), (A is a version of B)
+* ``IsNewVersionOf``, ``IsPreviousVersionOf`` (A is a new edition of B, where the new edition has been modified or updated), (A is a previous edition of B)
+* ``IsPartOf``, ``HasPart`` (A is a portion of B, may be used for elements of a series), (A includes the part B)
+* ``IsReferencedBy``, ``References`` (A is used as a source of information by B), (B is used as a source of information for A)
+* ``IsDocumentedBy``, ``Documents`` (B is documentation about/explaining A), (A is documentation about/explaining B)
+* ``isCompiledBy``, ``Compiles`` (B is used to compile or create A), (B is the result of a compile or creation event using A)
+* ``IsVariantFormOf``, ``IsOriginalFormOf`` (A is a variant or different form of B, e.g. calculated or calibrated form or different packaging), (A is the original form of B)
+* ``IsIdenticalTo`` (A is identical to B, for use when there is a need to register two separate instances of the same resource)
+* ``IsReviewedBy``, ``Reviews`` (A is reviewed by B), (A is a review of B)
+* ``IsDerivedFrom``, ``IsSourceOf`` (B is a source upon which A is based), (A is a source upon which B is based)
+* ``IsRequiredBy``, ``Requires`` (A is required by B), (A requires B)
+* ``IsObsoletedBy``, ``Obsoletes`` (A is replaced by B), (A requires B)
 
 
 
