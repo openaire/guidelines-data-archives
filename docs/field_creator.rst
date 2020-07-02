@@ -19,17 +19,25 @@ Subproperty creatorName (M, 1)
 
 The name of the author. 
 
-The format should be: family, given. Non-roman names may be transliterated according to the `ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_ schemas. When in doubt, give the name as it appears, and do not invert. Omit titles (like “Dr”).
+*Allowed values, other constraints:*
 
-In the case of an organization name which clearly includes an organizational hierarchy, list the parts of the hierarchy from largest to smallest, separated by full stops.
-If it is not clear whether there is a hierarchy, or unclear which is the larger or smaller portion of the body, give the name as it appears in the resource. Only encode organisations in this element to indicate corporate authorship, not to indicate the affiliation of an individual.
-
-The inclusion of personal and corporate name headings from authority lists constructed according to local or national thesaurus files is optional.
+* Personal names:
+** The format should be: family, given.
+** Omit titles (like “Dr”).
+* Organizational names:
+** In the case of an organization name which clearly includes an organizational hierarchy, list the parts of the hierarchy from largest to smallest, separated by full stops.
+** If it is not clear whether there is a hierarchy, or unclear which is the larger or smaller portion of the body, give the name as it appears in the resource. Only encode organisations in this element to indicate corporate authorship, not to indicate the affiliation of an individual.
+* When in doubt, give the name as it appears, and do not invert. 
+* Non-roman names may be transliterated according to the `ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_ schemas. 
+* The inclusion of personal and corporate name headings from authority lists constructed according to local or national thesaurus files is optional.
 
 .. The name of the author.
 .. Use inverted name, so the syntax will be the following: “surname”, “initials” (“first name”) “prefix”.
 
-Distinguished by attribute:   *xml:lang*
+Attribute xml:lang (O, 0-1)
+^^^^^^^^^^^^^^^^^
+
+The language in which the name is given.
 
 Attribute nameType (R, 0-1)
 ^^^^^^^^^^^^^^^^^
@@ -37,7 +45,6 @@ Attribute nameType (R, 0-1)
 The type of name denotes whether the creator is corporate/institutional or personal.
 
 .. include:: vocabularies/nametype.rst
-
 
 .. _datacite:creator_givenName:
 
@@ -71,7 +78,7 @@ The format is dependent upon scheme.
 
 **Allowed values, examples, other constraints**
 
-*Examplary Values:*
+*Examplary values:*
 
 * ``ISNI`` - |ISNI|
 * ``ORCID`` - |ORCID|
