@@ -1,3 +1,5 @@
+.. include:: vocabularies/replacements.rst
+
 .. _dci:identifier:
 
 Identifier (M, 1)
@@ -23,16 +25,16 @@ The type of the identifier.
 
 *Controlled list values (DataCite):*
 
-* DOI
+* ``DOI`` - |DOI|
 
 *Controlled list values (OpenAIRE):*
 
-* ARK
-* DOI
-* Handle
-* PURL
-* URN
-* URL
+* ``ARK`` - |ARK|
+* ``DOI`` - |DOI|
+* ``Handle`` - |Handle|
+* ``PURL`` - |PURL|
+* ``URN`` - |URN|
+* ``URL`` - |URL|
 
 Examples
 -------
