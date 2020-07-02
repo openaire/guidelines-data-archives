@@ -15,4 +15,5 @@ Property version (O, 0-1)
 
 *Allowed values, other constraints:*
 
-* For version numbers any string will be accepted, but a semantically-versioned tag is recommended. See <https://semver.org> for more information on semantic versioning.
+* For version numbers any string will be accepted, but a semantically-versioned tag is recommended.
+* For more information on semantic versioning see <https://semver.org>.
