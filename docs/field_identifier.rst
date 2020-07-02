@@ -10,7 +10,7 @@ The identifier is a unique string that identifies a resource.
 Property identifier (M, 1)
 ----------------
 
-*Allowed Values, Other Constraints*
+*Allowed values, other constraints:*
 
 * Format should be “10.1234/foo” (in the case of DOIs).
 
@@ -21,11 +21,11 @@ Attribute identifierType (M, 1)
 
 The type of the identifier.
 
-*Controlled List Values (DataCite)*
+*Controlled list values (DataCite):*
 
 * DOI
 
-*Controlled List Values (OpenAIRE)*
+*Controlled list values (OpenAIRE):*
 
 * ARK
 * DOI
