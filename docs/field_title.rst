@@ -18,16 +18,16 @@ Attribute xml:lang (R, 0-1)
 
 The language of the title.
 
-**Allowed values, examples, other constraints**
+*Controlled list values:*
 
-The value of the attribute should be chosen from IETF BCP 47, the `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_.
+* The values should be chosen from the IETF BCP 47, the `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_.
 
 Attribute titleType (O, 0-1)
 ~~~~~~~~~~~~~~~~
 
 The title's type.
 
-**Allowed values, examples, other constraints**
+*Controlled list values:*
 
 .. include:: vocabularies/titletype.rst
 
