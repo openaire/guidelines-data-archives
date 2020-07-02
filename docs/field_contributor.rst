@@ -63,8 +63,6 @@ Attribute nameIdentifierScheme (M, 1)
 
 The name of the name identifier scheme.
 
-*Allowed values, examples, other constraints:*
-
 *Exemplary values:*
 
 * ``ISNI`` - |ISNI|
