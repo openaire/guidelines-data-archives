@@ -76,8 +76,6 @@ The name of the name identifier scheme.
 Uniquely identifies an individual or legal entity, according to various schemes.
 The format is dependent upon scheme.
 
-**Allowed values, examples, other constraints**
-
 *Examplary values:*
 
 * ``ISNI`` - |ISNI|
