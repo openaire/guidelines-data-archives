@@ -6,10 +6,11 @@ Subject (MA, 0-n)
 ``datacite:subject``
 
 Subject, keyword, classification code, or key phrase describing the resource.
-In general, choose the most significant and unique words for keywords, avoiding those too general to describe a particular resource.
 
 *Allowed values, other constraints:*
 
+* In general, choose the most significant and unique words for keywords, avoiding those too general to describe a particular resource.
+* Usage of a controlled thesaurus or classification is highly recommended.
 * For keywords/keyphrases that are not controlled by a vocabulary or thesaurus:
 
   * Either encode multiple terms with a semi-colon separating each keyword/keyphrase, or repeat the element for each term.
