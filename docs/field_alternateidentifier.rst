@@ -15,11 +15,11 @@ The alternateIdentifier serves two purposes:
 Property alternateIdentifier (R, 0-n)
 ----------------
 
-**Allowed values, other constraints**
+*Allowed Values, Other Constraints*
 
-Secondary identifiers preferably should be durable, and also comprise local identifiers. All existing identifiers for the resource are appreciated. The format is free text - any alphanumeric string which is unique within its domain of issue and follows the respective specifications.
-
-Web pages dedicated to the resource, i.e. landing pages or download pages, are given as URLs. PIDs are fine, but should be prefixed with their respective resolver URL.
+* Secondary identifiers preferably should be durable, and also comprise local identifiers. All existing identifiers for the resource are appreciated.
+* The format is free text - any alphanumeric string which is unique within its domain of issue and follows the respective specifications.
+* Web pages dedicated to the resource, i.e. landing pages or download pages, are given as URLs. PIDs are fine, but should be prefixed with their respective resolver URL.
 
 .. _d:alternateidentifiertype:
 
@@ -28,9 +28,7 @@ Attribute alternateIdentifierType (M, 1)
 
 The type of the alternateIdentifier.
 
-**Allowed values, other constraints**
-
-*Examples for secondary identifiers (established and non-standard identifier types):*
+*Exemplary Values for Secondary Identifiers (Established and non-Standard Identifier Types):*
 
 * ``ARK`` - |ARK|
 * ``DOI`` - |DOI|
@@ -44,7 +42,7 @@ The type of the alternateIdentifier.
 * ``local`` - a local accession number
 * ``URL`` - |URL|
 
-*For specific, important web pages dedicated to the resource:*
+*Controlled Values for Specific, Important Web Pages Dedicated to the Resource:*
 
 * ``LandingPage`` - landing pages  
 * ``DistributionLocation`` - distribution locations
