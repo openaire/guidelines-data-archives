@@ -34,7 +34,7 @@ The type of the related identifier.
 * ``EAN13`` - |EAN13|
 * ``Handle`` - |Handle|
 * ``ISBN`` - |ISBN|
-* ``ISSN`` - |ISSN|, ``EISSN`` - |EISSN|, ``LISSN`` - |LISSN|, ``PISSN`` - |PISSN|
+* ``ISSN``, ``EISSN``, ``LISSN``, ``PISSN`` - |ISSN|, |EISSN|, |LISSN|, |PISSN|
 * ``IGSN`` - |IGSN|
 * ``ISTC`` - |ISTC|
 * ``LSID`` - |LSID|
@@ -57,23 +57,23 @@ The relationship of the resource being registered (A) with the related resource 
 
 *Controlled List Values:*
 
-* ``IsCitedBy``, ``Cites`` (B includes A in a citation), (A includes B in a citation)
-* ``IsSupplementTo``, ``IsSupplementedBy`` (A is a supplement to B), (B is a supplement to A)
-* ``IsContinuedBy``, ``Continues`` (A is continued by the work B), (A is a continuation of the work B)
-* ``Describes``, ``IsDescribedBy`` (A describes B), (A is described by B)
-* ``HasMetadata``, ``IsMetadataFor`` (resource A has additional metadata B), (additional metadata A for a resource B)
-* ``HasVersion``, ``IsVersionOf`` (A has a version (B)), (A is a version of B)
-* ``IsNewVersionOf``, ``IsPreviousVersionOf`` (A is a new edition of B, where the new edition has been modified or updated), (A is a previous edition of B)
-* ``IsPartOf``, ``HasPart`` (A is a portion of B, may be used for elements of a series), (A includes the part B)
-* ``IsReferencedBy``, ``References`` (A is used as a source of information by B), (B is used as a source of information for A)
-* ``IsDocumentedBy``, ``Documents`` (B is documentation about/explaining A), (A is documentation about/explaining B)
-* ``isCompiledBy``, ``Compiles`` (B is used to compile or create A), (B is the result of a compile or creation event using A)
-* ``IsVariantFormOf``, ``IsOriginalFormOf`` (A is a variant or different form of B, e.g. calculated or calibrated form or different packaging), (A is the original form of B)
+* ``IsCitedBy``/``Cites`` (B includes A in a citation), (A includes B in a citation)
+* ``IsSupplementTo``/``IsSupplementedBy`` (A is a supplement to B), (B is a supplement to A)
+* ``IsContinuedBy``/``Continues`` (A is continued by the work B), (A is a continuation of the work B)
+* ``Describes``/``IsDescribedBy`` (A describes B), (A is described by B)
+* ``HasMetadata``/``IsMetadataFor`` (resource A has additional metadata B), (additional metadata A for a resource B)
+* ``HasVersion``/``IsVersionOf`` (A has a version (B)), (A is a version of B)
+* ``IsNewVersionOf``/``IsPreviousVersionOf`` (A is a new edition of B, where the new edition has been modified or updated), (A is a previous edition of B)
+* ``IsPartOf``/``HasPart`` (A is a portion of B, may be used for elements of a series), (A includes the part B)
+* ``IsReferencedBy``/``References`` (A is used as a source of information by B), (B is used as a source of information for A)
+* ``IsDocumentedBy``/``Documents`` (B is documentation about/explaining A), (A is documentation about/explaining B)
+* ``isCompiledBy``/``Compiles`` (B is used to compile or create A), (B is the result of a compile or creation event using A)
+* ``IsVariantFormOf``/``IsOriginalFormOf`` (A is a variant or different form of B, e.g. calculated or calibrated form or different packaging), (A is the original form of B)
 * ``IsIdenticalTo`` (A is identical to B, for use when there is a need to register two separate instances of the same resource)
-* ``IsReviewedBy``, ``Reviews`` (A is reviewed by B), (A is a review of B)
-* ``IsDerivedFrom``, ``IsSourceOf`` (B is a source upon which A is based), (A is a source upon which B is based)
-* ``IsRequiredBy``, ``Requires`` (A is required by B), (A requires B)
-* ``IsObsoletedBy``, ``Obsoletes`` (A is replaced by B), (A requires B)
+* ``IsReviewedBy``/``Reviews`` (A is reviewed by B), (A is a review of B)
+* ``IsDerivedFrom``/``IsSourceOf`` (B is a source upon which A is based), (A is a source upon which B is based)
+* ``IsRequiredBy``/``Requires`` (A is required by B), (A requires B)
+* ``IsObsoletedBy``/``Obsoletes`` (A is replaced by B), (A requires B)
 
 
 
@@ -129,7 +129,7 @@ The type of the relatedMetadataScheme, linked via the schemeURI.
 
 Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
-*Examples:*
+*Exemplary Values*:
 
 * ``XSD`` - XML Schema Definition
 * ``DTD`` - Document Type Definition
