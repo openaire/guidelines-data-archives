@@ -58,6 +58,7 @@ The relationship of the resource being registered (A) with the related resource 
 *Controlled List Values:*
 
 .. csv-table::
+   :widths: 50, 50
 
    "``IsCitedBy`` (B includes A in a citation)", "``Cites`` (A includes B in a citation)"
    "``IsSupplementTo`` (A is a supplement to B)", "``IsSupplementedBy`` (B is a supplement to A)"
@@ -66,7 +67,7 @@ The relationship of the resource being registered (A) with the related resource 
    "``HasMetadata`` (resource A has additional metadata B)", "``IsMetadataFor`` (additional metadata A for a resource B)"
    "``HasVersion`` (A has a version (B))", "``IsVersionOf`` (A is a version of B)"
    "``IsNewVersionOf`` (A is a new edition of B, where the new edition has been modified or updated)", "``IsPreviousVersionOf`` (A is a previous edition of B)"
-   "``IsPartOf`` (A is a portion of B;may be used for elements of a series)", "``HasPart`` (A includes the part B)"
+   "``IsPartOf`` (A is a portion of B; may be used for elements of a series)", "``HasPart`` (A includes the part B)"
    "``IsReferencedBy`` (A is used as a source of information by B)", "``References`` (B is used as a source of information for A)"
    "``IsDocumentedBy`` (B is documentation about/explaining A)", "``Documents`` (A is documentation about/explaining B)"
    "``isCompiledBy`` (B is used to compile or create A)", "``Compiles`` (B is the result of a compile or creation event using A)"
