@@ -22,9 +22,12 @@ The name of the author.
 *Allowed values, other constraints:*
 
 * Personal names:
+
  * The format should be: family, given.
  * Omit titles (like “Dr”).
+ 
 * Organizational names:
+
  * In the case of an organization name which clearly includes an organizational hierarchy, list the parts of the hierarchy from largest to smallest, separated by full stops.
  * If it is not clear whether there is a hierarchy, or unclear which is the larger or smaller portion of the body, give the name as it appears in the resource. Only encode organisations in this element to indicate corporate authorship, not to indicate the affiliation of an individual.
 * When in doubt, give the name as it appears, and do not invert. 
