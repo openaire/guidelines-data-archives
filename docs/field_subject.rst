@@ -64,7 +64,7 @@ Attribute xml:lang (R, 0-1)
 
 The language of the subject synonym.
 
-*Recommended values:*
+*Recommended value lists:*
 
 * IETF BCP 47 - |IETF BCP 47|
 * ISO 639-x - |ISO 639-x|
