@@ -12,7 +12,7 @@ Identifiers of related resources other than the resource being registered. OpenA
 Property relatedIdentifier (MA, 0-n)
 ----------------
 
-*Allowed Values, Other Constraints*
+*Allowed values, other constraints:*
 
 * A related identifier must be globally unique and should be durable. Preferrably it is registered with an established identification system, or is a permalink or stable URL.
 * The format is free text - a unique string that unambiguously identifies a resource within its given context and follows the respective specifications.
@@ -22,7 +22,7 @@ Attribute relatedIdentifierType (M, 1)
 
 The type of the related identifier.
 
-*Controlled List Values:*
+*Controlled list values:*
 
 * ``ARK`` - |ARK| 
 * ``arXiv`` - |arXiv|
@@ -50,7 +50,7 @@ Attribute relationType (M, 1)
 
 The relationship of the resource being registered (A) with the related resource (B).
 
-*Controlled List Values:*
+*Controlled list values:*
 
 * ``IsCitedBy``/``Cites`` - (B includes A in a citation), (A includes B in a citation)
 * ``IsSupplementTo``/``IsSupplementedBy`` - (A is a supplement to B), (B is a supplement to A)
@@ -79,7 +79,7 @@ Attribute resourceTypeGeneral (O, 0-1)
 
 The main category the related resource belongs to.
 
-*Controlled List Values:*
+*Controlled list values:*
 
 * ``literature``
 * ``dataset``
@@ -93,7 +93,7 @@ Attribute relatedMetadataScheme (O, 0-1)
 
 The name of the metadata scheme.
 
-*Allowed Values, Other Constraints*
+*Allowed values, other constraints:*
 
 * Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
@@ -104,7 +104,7 @@ Attribute schemeURI (O, 0-1)
 
 The URI of the relatedMetadataScheme.
 
-*Allowed Values, Other Constraints*
+*Allowed values, other constraints:*
 
 * Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
@@ -115,7 +115,7 @@ Attribute schemeType (O, 0-1)
 
 The type of the relatedMetadataScheme, linked via the schemeURI.
 
-*Allowed Values, Other Constraints*
+*Allowed values, other constraints:*
 
 * Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
