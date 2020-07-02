@@ -10,16 +10,16 @@ A declaration of the resource's type.
 Property resourceType (M, 1)
 ----------------
 
-**Allowed values, examples, other constraints**
+*Allowed values, examples, other constraints:*
 
-Use the label of the resource type term as value. In the below table the preferred english labels are listed, but labels (preferred or alternative) in other languages can be chosen from the COAR Resource Type Vocabulary.
+Use the label of the resource type term as value. In the below table the preferred English labels are listed, but labels (preferred or alternative) in other languages can be chosen from the COAR Resource Type Vocabulary.
 
 Attribute resourceTypeGeneral (M, 1)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The main category the described resource belongs to.
 
-*Controlled List Values:*
+*Controlled list values:*
 
 * ``literature``
 * ``dataset``
