@@ -65,7 +65,7 @@ The name of the name identifier scheme.
 
 *Allowed values, examples, other constraints:*
 
-Exemplary values:
+*Exemplary values:*
 
 * ``ISNI`` - |ISNI|
 * ``ORCID`` - |ORCID|
@@ -75,6 +75,7 @@ Exemplary values:
 * ``ISIL`` - |ISIL|
 * ``GRID`` - |GRID|
 * ``OrgRef`` - |OrgRef|
+* ``ROR`` - |ROR|
 * national organisation ID authoritative systems (e.g. PTCRIS_OrgID (Portugal))
 
 .. _dci:contributor_schemeURI:
