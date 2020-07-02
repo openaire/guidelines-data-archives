@@ -15,7 +15,7 @@ Property relatedIdentifier (MA, 0-n)
 *Allowed Values, Other Constraints*
 
 * A related identifier must be globally unique and should be durable. Preferrably it is registered with an established identification system, or is a permalink or stable URL.
-* he format is free text - a unique string that unambiguously identifies a resource within its given context and follows the respective specifications.
+* The format is free text - a unique string that unambiguously identifies a resource within its given context and follows the respective specifications.
 
 Attribute relatedIdentifierType (M, 1)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -95,7 +95,7 @@ The name of the metadata scheme.
 
 *Allowed Values, Other Constraints*
 
-Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+* Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
 .. _d:relatedidentifier_schemuri:
 
@@ -106,7 +106,7 @@ The URI of the relatedMetadataScheme.
 
 *Allowed Values, Other Constraints*
 
-Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+* Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
 .. _d:relatedidentifier_schemeType:
 
@@ -117,7 +117,7 @@ The type of the relatedMetadataScheme, linked via the schemeURI.
 
 *Allowed Values, Other Constraints*
 
-Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+* Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
 *Exemplary Values*:
 
