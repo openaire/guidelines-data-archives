@@ -19,9 +19,9 @@ Attribute xml:lang (R, 0-1)
 
 The language of the title.
 
-*Controlled list values:*
+*Controlled value lists:*
 
-* The values should be chosen from the IETF BCP 47, the `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_.
+* IETF BCP 47, the `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_.
 
 Attribute titleType (O, 0-1)
 ~~~~~~~~~~~~~~~~
