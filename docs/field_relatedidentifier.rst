@@ -77,6 +77,7 @@ The relationship of the resource being registered (A) with the related resource 
    "``IsRequiredBy`` (A is required by B)", "``Requires`` (A requires B)"
    "``IsObsoletedBy`` (A is replaced by B)", "``Obsoletes`` (A requires B)"
 
+
 * ``IsCitedBy`` (B includes A in a citation) :raw-html:`<br/>` ``Cites`` (A includes B in a citation)
 * ``IsSupplementTo`` (A is a supplement to B) :raw-html:`<br/>` ``IsSupplementedBy`` (B is a supplement to A)
 * ``IsContinuedBy`` (A is continued by the work B) :raw-html:`<br/>` ``Continues`` (A is a continuation of the work B)
@@ -94,6 +95,7 @@ The relationship of the resource being registered (A) with the related resource 
 * ``IsDerivedFrom`` (B is a source upon which A is based) :raw-html:`<br/>` ``IsSourceOf`` (A is a source upon which B is based)
 * ``IsRequiredBy`` (A is required by B) :raw-html:`<br/>` ``Requires`` (A requires B)
 * ``IsObsoletedBy`` (A is replaced by B) :raw-html:`<br/>` ``Obsoletes`` (A requires B)
+
 
 .. note::
    ``Cites`` and ``IsCitedBy`` is dedicated to publications/datasets directly citing other publications/datasets in their references, whereas ``References`` and ``IsReferencedBy`` describes datasets/publications being used as information sources without direct citations.
