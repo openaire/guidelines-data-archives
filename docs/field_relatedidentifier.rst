@@ -78,23 +78,7 @@ The relationship of the resource being registered (A) with the related resource 
    "``IsObsoletedBy`` (A is replaced by B)", "``Obsoletes`` (A requires B)"
 
 
-* ``IsCitedBy`` (B includes A in a citation) :raw-html:`<br/>` ``Cites`` (A includes B in a citation)
-* ``IsSupplementTo`` (A is a supplement to B) :raw-html:`<br/>` ``IsSupplementedBy`` (B is a supplement to A)
-* ``IsContinuedBy`` (A is continued by the work B) :raw-html:`<br/>` ``Continues`` (A is a continuation of the work B)
-* ``Describes`` (A describes B) :raw-html:`<br/>` ``IsDescribedBy`` (A is described by B)
-* ``HasMetadata`` (resource A has additional metadata B) :raw-html:`<br/>` ``IsMetadataFor`` (additional metadata A for a resource B)
-* ``HasVersion`` (A has a version (B)) :raw-html:`<br/>` ``IsVersionOf`` (A is a version of B)
-* ``IsNewVersionOf`` (A is a new edition of B, where the new edition has been modified or updated) :raw-html:`<br/>` ``IsPreviousVersionOf`` (A is a previous edition of B)
-* ``IsPartOf`` (A is a portion of B;may be used for elements of a series) :raw-html:`<br/>` ``HasPart`` (A includes the part B)
-* ``IsReferencedBy`` (A is used as a source of information by B) :raw-html:`<br/>` ``References`` (B is used as a source of information for A)
-* ``IsDocumentedBy`` (B is documentation about/explaining A) :raw-html:`<br/>` ``Documents`` (A is documentation about/explaining B)
-* ``isCompiledBy`` (B is used to compile or create A) :raw-html:`<br/>` ``Compiles`` (B is the result of a compile or creation event using A)
-* ``IsVariantFormOf`` (A is a variant or different form of B, e.g. calculated or calibrated form or different packaging) :raw-html:`<br/>` ``IsOriginalFormOf`` (A is the original form of B)
-* ``IsIdenticalTo`` (A is identical to B, for use when there is a need to register two separate instances of the same resource)
-* ``IsReviewedBy`` (A is reviewed by B) :raw-html:`<br/>` ``Reviews`` (A is a review of B)
-* ``IsDerivedFrom`` (B is a source upon which A is based) :raw-html:`<br/>` ``IsSourceOf`` (A is a source upon which B is based)
-* ``IsRequiredBy`` (A is required by B) :raw-html:`<br/>` ``Requires`` (A requires B)
-* ``IsObsoletedBy`` (A is replaced by B) :raw-html:`<br/>` ``Obsoletes`` (A requires B)
+
 
 
 .. note::
