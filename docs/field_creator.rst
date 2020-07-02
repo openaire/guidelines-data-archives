@@ -9,7 +9,7 @@ The authors of the research output in priority order. May be corporate/instituti
 
 .. _datacite:creator_creatorName:
 
-Property creator (M, 1,n)
+Property creator (M, 1-n)
 ----------------
 
 A single creator.
