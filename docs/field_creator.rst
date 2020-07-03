@@ -179,7 +179,7 @@ With affiliation:
          0000-0002-8588-4196</datacite:nameIdentifier>
       <datacite:nameIdentifier nameIdentifierScheme="CIÊNCIAVITAE" schemeURI="https://cienciavitae.pt">
          C915-48B2-6C87</datacite:nameIdentifier>
-      <datacite:affiliation affiliationIdentifier="grid.10328.38" affiliationIdentifierScheme="GRID">
+      <datacite:affiliation affiliationIdentifier="150887294" affiliationIdentifierScheme="VIAF" schemeURI="https://viaf.org">
          Universidade do Minho</datacite:affiliation>
    </datacite:creator>
 
