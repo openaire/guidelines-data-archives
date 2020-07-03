@@ -106,14 +106,12 @@ Examples
 With initials:
 
 .. code-block:: xml
-   :linenos:
 
-   <datacite:creator>
-      <datacite:creatorName>Príncipe, P.M.</datacite:creatorName>
-      <datacite:affiliation></datacite:affiliation>
-      <ndatacite:ameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org">
-         0000-0002-8588-4196</datacite:nameIdentifier>
-   </datacite:creator>
+  <datacite:creator>
+     <datacite:creatorName>Cassirer, E.A.</datacite:creatorName>
+     <datacite:nameIdentifier nameIdentifierScheme="ISNI" schemeURI="http://isni.org">
+        000000012146438X</datacite:nameIdentifier>
+  </datacite:creator>
 
 With predicates like de, van etc.:
 
@@ -151,12 +149,16 @@ When the creator is an organization/institution:
 With affiliation:
 
 .. code-block:: xml
+   :linenos:
 
-  <datacite:creator>
-     <datacite:creatorName>Smit Jr., J.H. (John) de</datacite:creatorName>
-     <datacite:affiliation>Institute of Science and Technology</datacite:affiliation>
-     <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org">1234-5678-0987-1234</datacite:nameIdentifier>
-  </datacite:creator>
+   <datacite:creator>
+      <datacite:creatorName>Príncipe, P.M.</datacite:creatorName>
+      <datacite:affiliation>Universidade do Minho</datacite:affiliation>
+      <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org">
+         0000-0002-8588-4196</datacite:nameIdentifier>
+      <datacite:nameIdentifier nameIdentifierScheme="CIÊNCIAVITAE" schemeURI="https://cienciavitae.pt">
+         C915-48B2-6C87</datacite:nameIdentifier>
+   </datacite:creator>
 
 Context
 -------
