@@ -82,10 +82,15 @@ The format is dependent upon scheme.
 
 *Examplary values:*
 
+* ``CrossrefFunder`` - |CrossrefFunder|
+* ``GRID`` - |GRID|
+* ``ISIL`` - |ISIL|
 * ``ISNI`` - |ISNI|
 * ``ORCID`` - |ORCID|
-* ``VIAF`` - |VIAF|
+* ``OrgRef`` - |OrgRef|
 * ``ResearcherID`` - |ResearcherID|
+* ``ROR`` - |ROR|
+* ``VIAF`` - |VIAF|
 * national researcher/organisation ID authoritative systems (like the Portuguese CIÊNCIAVITAE or the Dutch Digital Author Identifier (DAI))
 
 .. _datacite:creator_nameIdentifier_schemeURI:
