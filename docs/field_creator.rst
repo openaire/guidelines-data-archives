@@ -110,7 +110,7 @@ The organizational or institutional affiliation of the creator.
 Attribute affiliationIdentifier (O, 0-n)
 ^^^^^^^^^^^^^^^^^^^
 
-Unique identifier of the organizational affiliation of the contributor.
+Unique identifier of the organizational affiliation of the creator.
 
 Attribute affiliationIdentifierScheme (MA, 0-1)
 ^^^^^^^^^^^^^^^^^^^
