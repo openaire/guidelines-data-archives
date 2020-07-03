@@ -102,6 +102,21 @@ Subproperty affiliation (O, 0-n)
 
 The organizational or institutional affiliation of the creator.
 
+Attribute affiliationIdentifier (O, 0-n)
+^^^^^^^^^^^^^^^^^^^
+
+Unique identifier of the organizational affiliation of the contributor.
+
+Attribute affiliationIdentifierScheme (MA, 0-1)
+^^^^^^^^^^^^^^^^^^^
+
+Name of the affiliation identifier schema. Affiliation identifiers should always be accompanied by their respective schemes.
+
+Attribute schemeURI (O, 0-1)
+^^^^^^^^^^^^^^^^^^^
+
+URI of the affiliation identifier schema.
+
 Examples
 -------
 
@@ -173,5 +188,6 @@ Context
 **DataCite v4.3 Differentiation**
 
 * OpenAIRE recommends including a nameIdentifier such as an ORCID or a ISNI if available.
+* OpenAIRE allows for more idendifier types than DataCite.
 
 **OpenAIRE Data Guidelines v2 Differentiation**
