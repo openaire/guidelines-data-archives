@@ -17,6 +17,7 @@
 .. |ISTC| replace:: International Standard Text Code
 .. |LISSN| replace:: linking ISSN
 .. |LSID| replace:: Life Science Identifiers
+.. |PatentNumber| replace:: Patent Number
 .. |PISSN| replace:: print ISSN
 .. |PMCID| replace:: PubMed Central identifier
 .. |PMID| replace:: PubMed identifier
