@@ -41,7 +41,12 @@ Use the publication date as value.
 Attribute dateType (M, 1)
 ~~~~~~~~~~~~~~~~
 
-The type of date. Choose from the :ref:`date type <vocab:datetype_datetype>` vocabulary. Use the controlled term ``Issued`` to indicate the date of publication.
+The type of date. 
+
+*Controlled value lists:*
+
+* :ref:`date type <vocab:datetype_datetype>`
+* Use the controlled term ``Issued`` to indicate the date of publication.
 
 Examples
 ----------------
