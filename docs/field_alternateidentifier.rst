@@ -55,41 +55,41 @@ Secondary identifiers:
 .. code-block:: xml
    :linenos:
 
-   <alternateIdentifiers>
-     <alternateIdentifier alternateIdentifierType="DOI">
-       10.5447/IPK/2015/9
-     </alternateIdentifier>
-   </alternateIdentifiers>
+   <datacite:alternateIdentifiers>
+      <datacite:alternateIdentifier alternateIdentifierType="DOI">
+         10.5447/IPK/2015/9
+      </datacite:alternateIdentifier>
+   </datacite:alternateIdentifiers>
 
 .. code-block:: xml
    :linenos:
 
-   <alternateIdentifiers>
-     <alternateIdentifier alternateIdentifierType="local">
-       oai:hup.sub.uni-hamburg.de.giga:article/491
-     </alternateIdentifier>
-   </alternateIdentifiers>
+   <datacite:alternateIdentifiers>
+      <datacite:alternateIdentifier alternateIdentifierType="local">
+         oai:hup.sub.uni-hamburg.de.giga:article/491
+      </datacite:alternateIdentifier>
+   </datacite:alternateIdentifiers>
 
 Landing pages and download pages:
 
 .. code-block:: xml
    :linenos:
 
-   <alternateIdentifiers>
-     <alternateIdentifier alternateIdentifierType="LandingPage">
-       http://hdl.handle.net/10316/33181
-     </alternateIdentifier>
-   </alternateIdentifiers>
+   <datacite:alternateIdentifiers>
+      <datacite:alternateIdentifier alternateIdentifierType="DistributionLocation">
+         http://some-distribution-location.org
+      </datacite:alternateIdentifier>
+   </datacite:alternateIdentifiers>
 
 .. code-block:: xml
    :linenos:
 
-   <alternateIdentifiers>
-     <alternateIdentifier alternateIdentifierType="DistributionLocation">
-       http://some-distribution-location.org
-     </alternateIdentifier>
-   </alternateIdentifiers>
-   
+   <datacite:alternateIdentifiers>
+      <datacite:alternateIdentifier alternateIdentifierType="LandingPage">
+         http://hdl.handle.net/10316/33181
+      </datacite:alternateIdentifier>
+   </datacite:alternateIdentifiers>
+ 
 Context
 -------
 
