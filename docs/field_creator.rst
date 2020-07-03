@@ -86,7 +86,7 @@ The format is dependent upon scheme.
 * ``ORCID`` - |ORCID|
 * ``VIAF`` - |VIAF|
 * ``ResearcherID`` - |ResearcherID|
-* national organisation ID authoritative systems (like the Portuguese CIÊNCIAVITAE or the Dutch Digital Author Identifier (DAI))
+* national researcher/organisation ID authoritative systems (like the Portuguese CIÊNCIAVITAE or the Dutch Digital Author Identifier (DAI))
 
 .. _datacite:creator_nameIdentifier_schemeURI:
 
@@ -170,11 +170,12 @@ With affiliation:
 
    <datacite:creator>
       <datacite:creatorName>Príncipe, P.M.</datacite:creatorName>
-      <datacite:affiliation affiliationIdentifier="grid.10328.38" affiliationIdentifierScheme="GRID">Universidade do Minho</datacite:affiliation>
       <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org">
          0000-0002-8588-4196</datacite:nameIdentifier>
       <datacite:nameIdentifier nameIdentifierScheme="CIÊNCIAVITAE" schemeURI="https://cienciavitae.pt">
          C915-48B2-6C87</datacite:nameIdentifier>
+      <datacite:affiliation affiliationIdentifier="grid.10328.38" affiliationIdentifierScheme="GRID">
+         Universidade do Minho</datacite:affiliation>
    </datacite:creator>
 
 Context
