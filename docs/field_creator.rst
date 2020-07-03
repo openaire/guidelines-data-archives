@@ -108,7 +108,6 @@ Examples
 With initials:
 
 .. code-block:: xml
-   :linenos:
 
   <datacite:creator>
      <datacite:creatorName>Cassirer, E.A.</datacite:creatorName>
@@ -119,7 +118,6 @@ With initials:
 With predicates like de, van etc.:
 
 .. code-block:: xml
-   :linenos:
 
   <datacite:creator>
      <datacite:creatorName>Smit, J.H. (John Hubert) de</creatorName>
@@ -154,7 +152,6 @@ When the creator is an organization/institution:
 With affiliation:
 
 .. code-block:: xml
-   :linenos:
 
    <datacite:creator>
       <datacite:creatorName>Príncipe, P.M.</datacite:creatorName>
