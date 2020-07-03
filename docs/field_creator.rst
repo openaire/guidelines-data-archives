@@ -193,7 +193,7 @@ Context
 
 **DataCite v4.3 Differentiation**
 
-* OpenAIRE recommends including a nameIdentifier such as an ORCID or a ISNI if available.
+* OpenAIRE recommends including name identifiers if available.
 * OpenAIRE allows for more idendifier types than DataCite.
 
 **OpenAIRE Data Guidelines v2 Differentiation**
