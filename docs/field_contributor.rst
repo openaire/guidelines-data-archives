@@ -92,6 +92,11 @@ Subproperty affiliation (R, 0-n)
 
 The organisational or institutional affiliation of the contributor.
 
+Attribute affiliationIdentifier (O, 0-n)
+^^^^^^^^^^^^^^^^^^^
+
+Unique identifier of the organizational affiliation of the creator.
+
 Examples
 -------
 
