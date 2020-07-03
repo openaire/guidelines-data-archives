@@ -1,3 +1,5 @@
+.. include:: vocabularies/replacements.rst
+
 .. _dci:creator:
 
 Creator (M, 1-n)
