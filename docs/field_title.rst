@@ -39,10 +39,10 @@ Examples
    :linenos:
 
     <datacite:title xml:lang="en-US">
-     National Institute for Environmental Studies and Center
-     for Climate System Research Japan
+       National Institute for Environmental Studies and Center
+       for Climate System Research Japan
     </datacite:title>
-    <datacite:title xml:lang="en-US" titleType="Subtitle">A survey</datacite:title>
+    <datacite:title xml:lang="en-US" titleType="SubTitle">A survey</datacite:title>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.3/
 
