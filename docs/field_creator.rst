@@ -170,7 +170,7 @@ With affiliation:
 
    <datacite:creator>
       <datacite:creatorName>Príncipe, P.M.</datacite:creatorName>
-      <datacite:affiliation>Universidade do Minho</datacite:affiliation>
+      <datacite:affiliation affiliationIdentifier="grid.10328.38" affiliationIdentifierScheme="GRID">Universidade do Minho</datacite:affiliation>
       <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org">
          0000-0002-8588-4196</datacite:nameIdentifier>
       <datacite:nameIdentifier nameIdentifierScheme="CIÊNCIAVITAE" schemeURI="https://cienciavitae.pt">
