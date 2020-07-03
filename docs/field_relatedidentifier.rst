@@ -131,27 +131,27 @@ Examples
 .. code-block:: xml
    :linenos:
 
-   <relatedIdentifiers>
-     <relatedIdentifier
-       relatedIdentifierType="URN"
-       relationType="IsCitedBy"
-       resourceTypeGeneral="literature">
-       urn:nbn:de:gbv:089-2683311469
-     </relatedIdentifier>
-   </relatedIdentifiers>
+   <datacite:relatedIdentifiers>
+      <datacite:relatedIdentifier
+         relatedIdentifierType="URN"
+         relationType="IsCitedBy"
+         resourceTypeGeneral="literature">
+         urn:nbn:de:gbv:089-2683311469
+      </datacite:relatedIdentifier>
+   </datacite:relatedIdentifiers>
 
 .. code-block:: xml
    :linenos:
 
-   <relatedIdentifiers>
-     <relatedIdentifier 
-       relatedIdentifierType="URL" 
-       relationType="HasMetadata" 
-       relatedMetadataScheme="citeproc+json" 
-       schemeURI="https://github.com/citation-style-language/schema/raw/master/csl-data.json">
-       https://data.datacite.org/application/citeproc+json/10.5072/example-full
-     </relatedIdentifier>
-   <relatedIdentifiers>
+   <datacite:relatedIdentifiers>
+      <datacite:relatedIdentifier 
+         relatedIdentifierType="URL" 
+         relationType="HasMetadata" 
+         relatedMetadataScheme="citeproc+json" 
+         schemeURI="https://github.com/citation-style-language/schema/raw/master/csl-data.json">
+         https://data.datacite.org/application/citeproc+json/10.5072/example-full
+      </datacite:relatedIdentifier>
+   <datacite:relatedIdentifiers>
 
 Context
 -------
