@@ -95,6 +95,8 @@ The organisational or institutional affiliation of the contributor.
 Attribute affiliationIdentifier (O, 0-n)
 **********************************
 
+Unique identifier of the organizational affiliation of the creator.
+
 Attribute affiliationIdentifierScheme (MA, 0-1)
 **********************************
 
@@ -104,8 +106,6 @@ Attribute schemeURI (O, 0-1)
 **********************************
 
 URI of the affiliation identifier schema.
-
-Unique identifier of the organizational affiliation of the creator.
 
 Examples
 -------
