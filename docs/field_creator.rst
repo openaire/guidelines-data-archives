@@ -108,54 +108,55 @@ With initials:
 .. code-block:: xml
    :linenos:
 
-   <creator>
-     <creatorName>Evans, R.J.</creatorName>
-     <affiliation></affiliation>
-     <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org">1234-1234-1234-1234</nameIdentifier>
-   </creator>
+   <datacite:creator>
+      <datacite:creatorName>Príncipe, P.M.</datacite:creatorName>
+      <datacite:affiliation></datacite:affiliation>
+      <ndatacite:ameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org">
+         0000-0002-8588-4196</datacite:nameIdentifier>
+   </datacite:creator>
 
 With predicates like de, van etc.:
 
 .. code-block:: xml
    :linenos:
 
-  <creator>
-     <creatorName>Smit, J.H. (John Hubert) de</creatorName>
-  </creator>
+  <datacite:creator>
+     <datacite:creatorName>Smit, J.H. (John Hubert) de</creatorName>
+  </datacite:creator>
 
 With both initials and first name:
 
 .. code-block:: xml
 
-  <creator>
-    <creatorName>Janssen, J. (John)</creatorName>
-  </creator>
+  <datacite:creator>
+     <datacite:creatorName>Janssen, J. (John)</datacite:creatorName>
+  </datacite:creator>
 
 With generational suffixes (Jr., Sr., etc.):
 
 .. code-block:: xml
 
-  <creator>
-    <creatorName>Smit Jr., J.H. (John) de</creatorName>
-  </creator>
+  <datacite:creator>
+     <datacite:creatorName>Smit Jr., J.H. (John) de</datacite:creatorName>
+  </datacite:creator>
 
 When the creator is an organization/institution:
 
 .. code-block:: xml
 
-  <creator>
-    <creatorName>Utrecht University. Department of Computer Sciences</creatorName>
-  </creator>
+  <datacite:creator>
+     <datacite:creatorName>Utrecht University. Department of Computer Sciences</datacite:creatorName>
+  </datacite:creator>
 
 With affiliation:
 
 .. code-block:: xml
 
-  <creator>
-    <creatorName>Smit Jr., J.H. (John) de</creatorName>
-    <affiliation>Institute of Science and Technology</affiliation>
-    <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org">1234-5678-0987-1234</nameIdentifier>
-  </creator>
+  <datacite:creator>
+     <datacite:creatorName>Smit Jr., J.H. (John) de</datacite:creatorName>
+     <datacite:affiliation>Institute of Science and Technology</datacite:affiliation>
+     <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org">1234-5678-0987-1234</datacite:nameIdentifier>
+  </datacite:creator>
 
 Context
 -------
