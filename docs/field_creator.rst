@@ -84,7 +84,7 @@ The format is dependent upon scheme.
 * ``ORCID`` - |ORCID|
 * ``VIAF`` - |VIAF|
 * ``ResearcherID`` - |ResearcherID|
-* national organisation ID authoritative systems (like the Portuguese CIÊNCIAVITAE)
+* national organisation ID authoritative systems (like the Portuguese CIÊNCIAVITAE or the Dutch Digital Author Identifier (DAI))
 
 .. _datacite:creator_nameIdentifier_schemeURI:
 
