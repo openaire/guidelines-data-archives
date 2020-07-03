@@ -111,16 +111,20 @@ Examples
 -------
 
 .. code-block:: xml
-   :linenos:
 
    <datacite:contributors>
       <datacite:contributor>
          <datacite:contributorName>Evans, R. J.</datacite:contributorName>
       <datacite:contributor>
-      <datacite:contributor>
-         <datacite:contributorName>International Human Genome Sequencing Consortium</datacite:contributorName>
-      </datacite:contributor>
    </datacite:contributors>
+   
+.. code-block:: xml 
+   
+      <datacite:contributor contributorType="Sponsor">
+         <datacite:contributorName>Hoffmann-La Roche</datacite:contributorName>
+         <nameIdentifier schemeURI="https://grid.ac" nameIdentifierScheme="GRID">grid.417570.0</nameIdentifier>
+      </datacite:contributor>
+
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.3/
 
