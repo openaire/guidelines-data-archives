@@ -56,5 +56,6 @@ Context
 **DataCite v4.3 Differentiation**
 
 * OpenAIRE recommends indicating the title's language.
+* OpenAIRE provides more tite types than DataCite. Also OpenAIRE does not encourage the title type ``Other``, as in that case the title type may just be omitted.
 
 **OpenAIRE Data Guidelines v2 Differentiation**
