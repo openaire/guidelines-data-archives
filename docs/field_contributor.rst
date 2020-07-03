@@ -92,21 +92,6 @@ Subproperty affiliation (R, 0-n)
 
 The organisational or institutional affiliation of the contributor.
 
-Attribute affiliationIdentifier (O, 0-n)
-^^^^^^^^^^^^^^^^^^^
-
-Unique identifier of the organizational affiliation of the contributor.
-
-Attribute affiliationIdentifierScheme (MA, 0-1)
-^^^^^^^^^^^^^^^^^^^
-
-Name of the affiliation identifier schema. Affiliation identifiers should always be accompanied by their respective schemes.
-
-Attribute schemeURI (O, 0-1)
-^^^^^^^^^^^^^^^^^^^
-
-URI of the affiliation identifier schema.
-
 Examples
 -------
 
