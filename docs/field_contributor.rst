@@ -1,3 +1,5 @@
+.. include:: vocabularies/replacements.rst
+
 .. _dci:contributor:
 
 Contributor (MA, 0-n)
@@ -54,7 +56,7 @@ The personal or first name of the contributor.
 Subproperty nameIdentifier (R, 0-n)
 ~~~~~~~~~~~~~~~~
 
-Uniquely identifies an individual or legal entity, according to various schemes.
+Unique identifier of an individual or legal entity, according to various schemes.
 
 .. _dci:contributor_nameIdentifierScheme:
 
@@ -90,6 +92,21 @@ Subproperty affiliation (R, 0-n)
 
 The organisational or institutional affiliation of the contributor.
 
+Attribute affiliationIdentifier (O, 0-n)
+^^^^^^^^^^^^^^^^^^^
+
+Unique identifier of the organizational affiliation of the contributor.
+
+Attribute affiliationIdentifierScheme (MA, 0-1)
+^^^^^^^^^^^^^^^^^^^
+
+Name of the affiliation identifier schema. Affiliation identifiers should always be accompanied by their respective schemes.
+
+Attribute schemeURI (O, 0-1)
+^^^^^^^^^^^^^^^^^^^
+
+URI of the affiliation identifier schema.
+
 Examples
 -------
 
@@ -97,12 +114,12 @@ Examples
    :linenos:
 
    <datacite:contributors>
-	   <datacite:contributor>
-	     <datacite:contributorName>Evans, R. J.</datacite:contributorName>
-	   <datacite:contributor>
-	   <datacite:contributor>
-	     <datacite:contributorName>International Human Genome Sequencing Consortium</datacite:contributorName>
-	   </datacite:contributor>
+      <datacite:contributor>
+         <datacite:contributorName>Evans, R. J.</datacite:contributorName>
+      <datacite:contributor>
+      <datacite:contributor>
+         <datacite:contributorName>International Human Genome Sequencing Consortium</datacite:contributorName>
+      </datacite:contributor>
    </datacite:contributors>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.3/
@@ -117,6 +134,7 @@ Context
 
 **DataCite v4.3 Differentiation**
 
-
+* OpenAIRE recommends including name identifiers if available.
+* OpenAIRE allows for more identifer types than DataCite.
 
 **OpenAIRE Data Guidelines v2 Differentiation**
