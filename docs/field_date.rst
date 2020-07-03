@@ -45,7 +45,8 @@ The type of date.
 
 *Controlled value lists:*
 
-* :ref:`date type <vocab:datetype_datetype>`
+.. include:: vocabularies/datetype.rst
+
 * Use the controlled term ``Issued`` to indicate the date of publication.
 
 Examples
