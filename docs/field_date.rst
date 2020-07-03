@@ -11,7 +11,7 @@ DCMI Definition: A date associated with an event in the life cycle of the resour
 
 The date should be formatted according to the W3C encoding rules for dates and times:
 
-* Date Completeness:
+* Date completeness:
 
   * ``YYYY-MM-DD`` (e.g. 1997-07-16), where:
 
