@@ -145,8 +145,8 @@ When the creator is an organization/institution:
 
   <datacite:creator>
      <datacite:creatorName>Utrecht University. Department of Computer Sciences</datacite:creatorName>
-        <datacite:nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">
-           04pp8hn57</datacite:nameIdentifier>
+     <datacite:nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org">
+        04pp8hn57</datacite:nameIdentifier>
   </datacite:creator>
 
 With affiliation:
