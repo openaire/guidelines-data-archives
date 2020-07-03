@@ -36,6 +36,8 @@ The type of the alternateIdentifier.
 * ``Handle`` - |Handle|
 * ``IGSN`` - |IGSN|
 * ``LSID`` - |LSID|
+* ``PMCID`` - |PMCID|
+* ``PMID`` - |PMID|
 * ``PURL`` - |PURL|
 * ``UPC`` - |UPC|
 * ``URN`` - |URN|
@@ -102,6 +104,7 @@ Context
 
 * alternateIdentifier_ is *recommended* in OpenAIRE instead of *optional* in DataCite.
 * OpenAIRE uses alternateIdentifier_ also for the specific web targets *landing page* and *distribution location*.
+* OpenAIRE allows for more identifier types than DataCite.
 
 **OpenAIRE Data Guidelines v Differentiation**
 
