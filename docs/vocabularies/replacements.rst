@@ -18,6 +18,7 @@
 .. |LISSN| replace:: linking ISSN
 .. |LSID| replace:: Life Science Identifiers
 .. |PISSN| replace:: print ISSN
+.. |PMCID| replace:: PubMed Central identifier
 .. |PMID| replace:: PubMed identifier
 .. |PURL| replace:: Persistent URL (resolvable via http://purl.org/)
 .. |UPC| replace:: Universal Product Code
