@@ -47,15 +47,25 @@ The type of date.
 
 .. include:: vocabularies/datetype.rst
 
-* Use the controlled term ``Issued`` to indicate the date of publication.
-
 Examples
 ----------------
+
+Date of publication:
 
 .. code-block:: xml
    :linenos:
 
    <datacite:date dateType="Issued">2000-12-25</datacite:date>
+   
+Start and end date of embargo:
+
+.. code-block:: xml
+   :linenos:
+
+   <datacite:dates>
+      <datacite:date dateType="Accepted">2011-12-01</datacite:date>
+      <datacite:date dateType="Available">2012-12-01</datacite:date>
+   </datacite:dates>
 
 .. _DRIVER Guidelines v2 element date: https://wiki.surfnet.nl/display/DRIVERguidelines/Date
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.3/
