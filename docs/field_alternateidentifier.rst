@@ -100,7 +100,7 @@ Context
 * :ref:`dci:identifier` (Use ``identifier`` for the primary identifier of the same resource instance.)
 * :ref:`dci:relatedIdentifier` (Use ``relatedIdentifier`` for identifiers of related resources.)
 
-**DataCite v4.3 Differentiation**
+**DataCite v4.4 Differentiation**
 
 * alternateIdentifier_ is *recommended* in OpenAIRE instead of *optional* in DataCite.
 * OpenAIRE uses alternateIdentifier_ also for the specific web targets *landing page* and *distribution location*.

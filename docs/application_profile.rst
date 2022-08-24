@@ -44,7 +44,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`
                                                                        | :ref:`relation type <vocab:relationtype_relationtype>`
                                                                        | :ref:`resourcetype general <vocab:resourcetypegeneral_resourcetypegeneral>`
-:ref:`dci:resourceType`                  datacite:resourceType         `COAR Resource Type Vocabulary`_
+:ref:`dci:resourceType`                  oairedata:resourceType         `COAR Resource Type Vocabulary`_
 :ref:`dci:accessrights`                  datacite:rights               `COAR Access Right Vocabulary`_
 :ref:`dci:size`                          datacite:size
 :ref:`dci:version`                       datacite:version              `COAR Version Vocabulary`_ 
@@ -54,5 +54,5 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 
 The application profile is implemented in XML Schema.
 
-Not listed elements from DataCite schema v4.3 could be used as further optional (O) elements.
+Not listed elements from DataCite schema v4.4 could be used as further optional (O) elements.
 

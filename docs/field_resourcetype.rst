@@ -3,7 +3,7 @@
 Resource Type (M, 1)
 --------------------
 
-``datacite:resourceType``
+``oairedata:resourceType``
 
 A declaration of the resource's type.
 
@@ -21,7 +21,6 @@ The main category the described resource belongs to.
 
 *Controlled list values:*
 
-* ``literature``
 * ``dataset``
 * ``software``
 * ``other``
@@ -48,8 +47,9 @@ Context
 
 
 
-**DataCite v4.3 Differentiation**
+**DataCite v4.4 Differentiation**
 
 
 
 **OpenAIRE Data Guidelines v2 Differentiation**
+

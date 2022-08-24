@@ -49,7 +49,7 @@ Context
 
 * :ref:`aire:licenseCondition` (Use ``oaire:licenseCondition`` for license information related to the resource.)
 
-**DataCite v4.3 Differentiation**
+**DataCite v4.4 Differentiation**
 
 * Unlike DataCite, OpenAIRE restricts the use of this property to indicate access rights.
 
